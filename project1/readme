@@ -1,0 +1,13 @@
+Here are some loose guidelines the project 1:
+
+a)	Where did you obtain the data? The main purpose of the experiment?
+b)	 Type of microarray technology? What samples are applied? Specific condition, mutation or treatments? Biological replicates etc.
+c)	Brief explanation of the steps/pipeline you used for data preprocessing 
+d)	Detect differentially expressed genes
+e)	Visualize the top genes? (optional)
+f)	Cluster/classification analysis on the samples using significant genes?
+g)	Conclusion: interpret your result and its implications.
+
+The report format should be 1.5-line spaced and no more than 5 pages (figures, tables, R
+code, and references included).
+
