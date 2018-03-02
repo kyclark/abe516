@@ -19,8 +19,13 @@ library(simpleaffy)
 h.qc=qc(harvard.rawData)
 avbg(h.qc)
 percent.present(h.qc)
+
 MAplot(harvard.rawData, plot.method="smoothScatter", pair=TRUE)
 par(mfrow=c(2,3))
 MAplot(harvard.rawData, plot.method="smoothScatter")
 
-harvard.exprData <- expresso(harvard.rawData, bgcorrect.method = "rma", normalize.method = "constant", pmcorrect.method = "pmonly", summary.method = "avgdiff")
+harvard.exprData <- expresso(harvard.rawData, 
+                             bgcorrect.method = "rma", 
+                             normalize.method = "constant", 
+                             pmcorrect.method = "pmonly", 
+                             summary.method = "avgdiff")
