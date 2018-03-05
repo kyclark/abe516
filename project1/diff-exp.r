@@ -61,7 +61,7 @@ logodds = topTable(fit2,
                    number  = 10)[,c(1,6)]
 
 logFC = topTable(fit2, 
-                 coef    =1,
+                 coef    = 1,
                  sort.by = "logFC",
                  adjust  = "fdr",
                  number  = 10)[,c(1,3)]

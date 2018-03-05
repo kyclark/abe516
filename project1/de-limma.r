@@ -2,7 +2,7 @@
 source("http://www.bioconductor.org/biocLite.R")
 library("Biobase")
 library("GEOquery")
-library("limma")
+?library("limma")
 
 # load series and platform data from GEO
 setwd("~/work/abe516/project1")
