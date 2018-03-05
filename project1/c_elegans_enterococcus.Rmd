@@ -5,6 +5,10 @@ date: "3/3/2018"
 output: html_document
 ---
 
+Caenorhabditis elegans is a common soil-living nematode which has been shown to prefer eat Escherichia coli strain OP50 (Shtonda). This 2018 study compares C. elegans fed E. coli to groups fed 3 different species of enterococci, “natural commensals of the human gastrointestinal tract and important hospital-borne pathogens, with the majority of human enterococcal infections caused by two species, Enterococcus faecalis and Enterococcus faecium.” The purpose was to find which C. elegans genes were differentially expressed when fed four different bacteria.
+
+The study used several C. elegans strains of the wild-type N2 Bristol. There are 13 samples each using 40-50 late L4-staged worms. Four are control groups fed heat killed (HK) E. coli OP50 (because “live E. coli is pathogenic to C. elegans on BHI agar, the rich medium required for E. faecalis and E. faecium growth” [Ausubel]). The other 9 samples were fed live B. subtilis PY79, live E. faecalis MMH594, or live E. faecium E007, each in triplicate. The level of gene expression was determined using the Affymetrix C. elegans Genome Array, a DNA microarray platform that measures 22,625 C. elegans genes (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL200). The data was obtained from the NCBI Gene Expression Omnibus (GEO) under the accession “GSE95636” (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95636).
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
