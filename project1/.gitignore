@@ -3,3 +3,5 @@ data
 *.gz
 *.swp
 figures
+tables
+.DS_Store

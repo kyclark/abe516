@@ -7,6 +7,25 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+source("http://www.bioconductor.org/biocLite.R")
+library("affy")
+library("simpleaffy")
+library("scales")
+library("R.utils")
+library("knitr")
+library("limma")
+
+setwd("~/work/abe516/project1")
+cwd = getwd()
+figures_dir = file.path(cwd, 'figures')
+if (!dir.exists(figures_dir)) {
+  dir.create(figures_dir)
+}
+
+tables_dir = file.path(cwd, 'tables')
+if (!dir.exists(tables_dir)) {
+  dir.create(tables_dir)
+}
 ```
 
 ## Introduction
@@ -15,26 +34,13 @@ Caenorhabditis elegans is a common soil-living nematode which has been shown to 
 
 The study used several C. elegans strains of the wild-type N2 Bristol. There are 13 samples each using 40-50 late L4-staged worms. The study used four groups:
 
-1. "C": Four samples fed heat killed (HK) E. coli OP50 (because “live E. coli is pathogenic to C. elegans on BHI agar, the rich medium required for E. faecalis and E. faecium growth” [Ausubel])
-2. "Bs": Three fed live B. subtilis PY79
-3. "Efs": Three fed live E. faecalis MMH594
-4. "Efm": Three fed live E. faecium E007
+- *C*: Four samples fed heat killed (HK) E. coli OP50 (because “live E. coli is pathogenic to C. elegans on BHI agar, the rich medium required for E. faecalis and E. faecium growth” [Ausubel])
+- *Bs*: Three fed live B. subtilis PY79
+- *Efs*: Three fed live E. faecalis MMH594
+- *Efm*: Three fed live E. faecium E007
 
 ```{r message = FALSE, warning = FALSE}
-setwd("~/work/abe516/project1")
 
-source("http://www.bioconductor.org/biocLite.R")
-library("affy")
-library("simpleaffy")
-library("scales")
-library("R.utils")
-
-cwd = getwd()
-figure_dir = file.path(cwd, 'figures')
-
-if (!dir.exists(figure_dir)) {
-  dir.create(figure_dir)
-}
 dat = ReadAffy(celfile.path = "data")
 num_samples = length(dat)
 groups = c("C", "Bs", "Efs", "Efm")
@@ -43,25 +49,112 @@ fl <- factor(c(rep('0', 2), rep('1', 3), rep('2', 3), rep('3', 3), rep('0', 2)),
 
 printf("There are %s features in %s samples\n", length(featureNames(dat)), num_samples)
 ```
-The level of gene expression was determined using the Affymetrix C. elegans Genome Array, a DNA microarray platform that measures 22,625 C. elegans genes (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL200). The data was obtained from the NCBI Gene Expression Omnibus (GEO) under the accession “GSE95636” (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95636). A look at the raw expression shows medians are not quite even:
 
-## Boxplots and MA Plots
+The level of gene expression was determined using the Affymetrix C. elegans Genome Array, a DNA microarray platform that measures 22,625 C. elegans genes (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL200). The data was obtained from the NCBI Gene Expression Omnibus (GEO) under the accession “GSE95636” (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95636). 
 
-```
-{r boxplots}
+# Boxplots and MA Plots
+
+An examination of the raw expression values shows the need for error correction:
+
+```{r message = FALSE, warning = FALSE}
 palette(brewer_pal(type = "seq", palette = "Set2")(length(groups)))
+png(filename = file.path(figures_dir, "raw-box-plot.png"))
 boxplot(dat, names = fl, main = "Raw", las = 2, col = fl)
-```
+invisible(dev.off())
 
-A look at the MA plots shows the need for error correction.
-
-```{r maplotraw, message = FALSE, warning = FALSE}
-ma_raw = file.path(figure_dir, "ma-raw.png")
-png(filename = ma_raw, width = 600, height = 800)
+png(filename = file.path(figures_dir, "raw-ma-plot.png"), width = 600, height = 800)
 par(mfrow = c(5,3))
 MAplot(dat, plot.method = "smoothScatter")
-dev.off()
+invisible(dev.off())
 ```
-![MA Plot (raw)](figures/ma-raw.png)
+![Raw box plot](figures/raw-box-plot.png)
+![MA Plot (raw)](figures/raw-ma-plot.png)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The red lines on the MA plot deviate from the 0 horizontal. Using background correction and normalization, we can achieve much better results:
+
+```{r}
+dat.rmabg = bg.correct(dat, "rma")
+dat.norm = normalize(dat.rmabg, "quantiles")
+png(filename = file.path(figures_dir, "norm-box-plot.png"))
+boxplot(dat.norm, main = "Normalized", las = 2, col = as.factor(groups))
+invisible(dev.off())
+
+png(filename = file.path(figures_dir, "norm-ma-plot.png"), width = 600, height = 800)
+par(mfrow = c(5,3))
+MAplot(dat.norm, plot.method = "smoothScatter")
+```
+![Normalized box plot](figures/norm-box-plot.png)
+![Normalized MA plot](figures/norm-ma-plot.png)
+
+These manual steps for error correction can be handled by the "expresso" function.
+
+```{r message = FALSE, warning = FALSE}
+eset <- expresso(dat, 
+                 bgcorrect.method = "rma", 
+                 normalize.method = "quantiles", 
+                 pmcorrect.method = "pmonly", 
+                 summary.method   = "medianpolish")
+```
+
+Using the expresso-corrected data, we can create our experiment design and contrasts to find the differentially expressed genes. Below are the top 10 genes; the rest will be written to the "tables" directory. 
+
+```{r}
+design <- model.matrix(~ 0 + fl)
+colnames(design) = groups
+fit <- lmFit(eset, design)
+contrast.matrix <- makeContrasts(Efm-C, Bs-C, Efs-Bs, Efm-Efs, levels = design)
+fit1 <- contrasts.fit(fit, contrast.matrix)
+fit2 <- eBayes(fit1)
+
+kable(topTable(fit2, n = 10, adjust = "fdr"))
+cnames = c("ID", "adj.P.Val", "P.Value", "Gene.symbol", "Gene.title", "GO.Function", "GO.Process", "GO.Component")
+tt = topTable(fit2, adjust = "fdr", sort.by = "B", number = 250)
+#tt = subset(tt, select = cnames)
+write.table(tt, file=file.path(tables_dir, "top250.tab"), row.names=F, sep="\t")
+for (coef in 1:4) {
+  filename = file.path(tables_dir, paste0("top250-c", coef, ".tab"))
+  write.table(topTable(fit2, coef = 1, adjust = "fdr", sort.by = "B", number = 250), 
+              file=filename, row.names=F, sep="\t")  
+}
+```
+We can use Venn diagrams to inspect the number of shared genes in the top 250, those down-regulated, and those up-regulated:
+
+```{r}
+results = decideTests(fit2, adjust="fdr", p=0.05)
+png(filename = file.path(figures_dir, "venn.png"), width = 400, height = 800)
+par(mfrow = c(3, 1))
+vennDiagram(results, main = "Diff Exp Genes")
+vennDiagram(results, include = "down", main = "Down Regulated")
+vennDiagram(results, include = "up", main = "Up Regulated")
+invisible(dev.off())
+```
+
+![Venn diagrams](figures/venn.png)
+
+Volcano plots can show the names of the most differentially expressed genes among the different contrasts:
+
+```{r}
+png(filename = file.path(figures_dir, "volcano.png"), width = 800, height = 800)
+par(mfrow = c(2,2))
+volcanoplot(fit2, coef = 1, main = "E_faecium-Control", names = row.names(fit2$coefficients), highlight = 10)
+volcanoplot(fit2, coef = 2, main = "B_subtilis-Control", names = row.names(fit2$coefficients), highlight = 10)
+volcanoplot(fit2, coef = 3, main = "E_faecium-B_subtilis", names = row.names(fit2$coefficients), highlight = 10)
+volcanoplot(fit2, coef = 3, main = "E_faecium-E_faecalis", names = row.names(fit2$coefficients), highlight = 10)
+invisible(dev.off())
+```
+
+![Volcano plots](figures/volcano.png)
+
+# Cluster/classification analysis
+
+Ideas: find most frequent GO terms? What other kinds of clustering/classification?
+
+# Conclusion
+
+Something here...
+
+# References
+
+Ausubel FM, Yuen GJ. Both live and dead Enterococci activate Caenorhabditis elegans host defense via immune and stress pathways. 2018; Virulence, DOI: 10.1080/21505594.2018.1438025.
+
+Shtonda BB, Avery L. Dietary choice behavior in Caenorhabditis elegans. The Journal of experimental biology. 2006;209(Pt 1):89-102. doi:10.1242/jeb.01955.
