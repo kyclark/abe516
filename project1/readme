@@ -8,9 +8,11 @@ e)	Visualize the top genes? (optional)
 f)	Cluster/classification analysis on the samples using significant genes?
 g)	Conclusion: interpret your result and its implications.
 
-The report format should be 1.5-line spaced and no more than 5 pages (figures, tables, R
-code, and references included).
+The report format should be single line spaced and no more than 5 pages
+(figures, tablesincluded).  Rcode and references are attached as an appendix.
 
 
 https://www.ncbi.nlm.nih.gov/geo/geo2r/?acc=GSE95636
 Caenorhabditis elegans infected with Enterococcus
+
+
