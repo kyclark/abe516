@@ -1,0 +1,180 @@
+---
+title: "iMicrobe Mash"
+author: "Ken Youens-Clark"
+date: "4/24/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("ggplot2")
+library("ggdendro")
+library("vegan")
+library("DESeq2")
+library("SAGx")
+library("pheatmap")
+library("RColorBrewer")
+library("R.utils")
+```
+
+## Sequence Comparison Methods
+
+Metagenomics is the study of all the DNA from a given environment as opposed to traditional genomics where an organism is isolated, cultured, and sequenced. Most modern sequencing platforms (454, Illumina, IonTorrent) can only read short strings of DNA, usually up to 200 or 300 base pairs, which only gives a small window on the genome being studied. In traditional genomics, we know the organism we are studying is the only one present in the sample, so it's possible to somewhat confidently reassemble these short reads into their original order to study the genome, but in metagenomics, we do not have that luxury.
+
+The word "meta" in Greek means "after" or "beyond," but maybe "transcendent" is a better word. Given that 99% of the world's microbes refuse to grow in a isolation and culture, we must leave behind the certainty of older methods to study genomes at a higher level. The idea of assembling millions of short reads from potentially dozens or even hundreds of unknown organisms seems certain to produce chimeric genomes that would only pollute downstream analysis. 
+
+Another approach could be to take the unassembled reads and compare them to known genomes. A naive approach might be to use traditional alignment tools like BLAST which are very accurate at the cost of being quite slow, far too slow to handle the 2-20 million reads typically produced by modern sequening platforms. This approach also has the disadvantage of database bias -- we can only align to organisms we've isolated and sequenced, so we will necessarily only rediscover organisms similar to those, and we already know that what we've seen is only a very small portion of what actually exists in the world
+
+An alternative to metagenomics can be found in amplicon sequencing where specific targets, such as the highly conserved 16S rRNA bacterial gene, are amplified and compared to known sequences, but this method ignores the presence of fungi and viruses. 
+
+So, if we don't want to assemble short reads or compare them to reference database or rely on marker genes, what is left? Newer sequencing platforms like PacBio or Nanopore promise to deliver longer reads, but sometimes with a much higher error rate. Without waiting for those to become as reliable, ubiquitous, and cheap as current platforms, I will use k-mer composition analysis on almost 4000 metagenomic samples sequences on a variety of short-read platforms.
+
+## The Promise of K-mers
+
+There are many methods we can use to compare any two strings from a given language. For instance, one typical assesment of DNA sequences known as "GC content" is the proportion of Gs and Cs in relation to the As and Ts. This dinucleotide representation might help to generally classify short sequences, for instance, into those from a coding region (which are found to be GC-rich) or from a particular organism (yeast is somewhat low at around 38% while some Actinobacteria can be as high as 72%). Finding the GC ratio of a sequence is extremely cheap (count the Gs and Cs and divide by sequenc length), but it is fairly worthless for classification.
+
+An alternate way to compare short sequences is to almost counter-intuitiely make them even smaller and count not individual bases but shorter substrings called "k-mers."  A k-mer is a k-length substring from a sequence of letters and is analogous to words like "monomer" or "dimer" to denote a structure composed of one or two parts. This pictures shows the 10 20-mers contained in a sample sequence:
+
+```
+SEQ:  ACAGCGCAAGGACGTGTTCGAGATCAAGG
+ 1    ACAGCGCAAGGACGTGTTCG             
+ 2     CAGCGCAAGGACGTGTTCGA            
+ 3      AGCGCAAGGACGTGTTCGAG           
+ 4       GCGCAAGGACGTGTTCGAGA          
+ 5        CGCAAGGACGTGTTCGAGAT         
+ 6         GCAAGGACGTGTTCGAGATC        
+ 7          CAAGGACGTGTTCGAGATCA      
+ 8           AAGGACGTGTTCGAGATCAA     
+ 9            AGGACGTGTTCGAGATCAAG     
+10             GGACGTGTTCGAGATCAAGG    
+```
+
+The number of possible 20-mers from the language {A, C, T, G} is 4^20 or ~2e12; therefore, if you find a 20-mer is shared between two sequences, it's fairly unlikely to be a random event. Some regions of the genome can be quite repetitive and conserved, and so in practice we may find some k-mers are found thousands of times. We can ignore these just as we might ignore words like "a,", "an," and "the" if we were comparing any two texts from English. These are common, low-information "mers" that we could safely ignore.
+
+Numerous algorithms exist for counting and comparing shared k-mers in genomes. I will be using Mash (Odnov et al., 2016) to compare and cluster around 4000 meta- and genomic samples that can be found at iMicrobe. The bulk of the data in this repository was inherited from the CAMERA project (Sun et al., 2011) after it shutdown in 2014 and includes data from very diverse environments including acid mine drainage, soil, ocean, and host-associated (e.g., human, mouse). 
+
+Mash uses MinHash, min-wise independent permutations locality sensitive hashing scheme, to create a signature of a sample. This algorithm was originally developed in 1997 at AltaVista, one of the earliest Internet search engines, to determine the similarity of any two given web pages so as to avoid indexing duplicate data. Rather than counting every k-mer found in a sample, Mash uses a "sketching" step to select a "minimum hash value" which is like a signature for a sample. These sketches can be compared to determine how similar one sample is from another. 
+
+## Data Availability
+
+The iMicrobe project has create Mash indexes for samples (https://www.imicrobe.us/#/samples) and placed them into the Cyverse Data Store (/iplant/home/shared/imicrobe). Using the iRODS command line tool "ils" to recursively list all files and filtering for those ending in ".msh," I created a list of 4,158 files which I used "iget" to retrieve to my local disk. The size of the original data this represents is on the order of 10T, but the local Mash files occupy around 50M, a compression of orders of magnitude. Of course, such a scale of compression also includes inevitable data loss, but in this exploration we will determine if Mash can still group samples accurately.
+
+## Creating a Distance Matrix
+
+The time for Mash to sketch a given set of samples is relatively fast, and the time to compare Mash sketches is almost trivial. The use of almost any other comparison method to do a pairwise comparison of 3684 samples likely would be impractical, but Mash is able to create a distance matrix in around 3 minutes:
+
+```
+$ ls -1 mash/*.msh | wc -l
+    3684
+$ find mash -name \*.msh > all-files
+$ mash paste -l all all-files
+Writing all.msh...
+time mash dist -t all.msh all.msh > mash-dist.txt
+
+real	2m49.756s
+user	2m53.846s
+sys	0m0.785s
+```
+
+Mash has an annoying output format in that the first line starts with a "#" symbol ("#query") which is almost universally regarded as a comment. I wrote a few lines of Python to fix this and create a new file called "dist.txt" (see appendix).
+
+```{r}
+wd = "~/work/abe516/project3"
+setwd(wd)
+full.df = read.table("dist.txt", header = T, check.names = F)
+num.samples = 50
+num.iter = 10
+
+for (i in 1:num.iter) {
+  print(paste("Sample", i))
+  sample.cols = sample(nrow(full.df), num.samples)
+  df = full.df[sample.cols, sample.cols]
+  fit = hclust(as.dist(df), method = "ward.D2")
+  ggdendro::ggdendrogram(fit, rotate=T)
+  # dg = ggdendro::ggdendrogram(fit, rotate=T) 
+  # ggsave(file = file.path(wd, paste0("sample", i, ".png")), 
+  #        limitsize = FALSE, width = 5, height = 10, plot = dg)
+}
+
+# HOT
+hot.df = read.table("hot-dist.txt", header = T, check.names = F)
+hot.fit = hclust(as.dist(hot.df), method = "ward.D2")
+ggdendro::ggdendrogram(hot.fit, rotate=T)
+
+# dg = ggdendro::ggdendrogram(hot.fit, rotate=T) 
+# ggsave(file = file.path(wd, "hot.png"), 
+#        limitsize = FALSE, width = 5, height = 10, plot = dg)
+
+pheatmap(hot.df, 
+         col = colors, 
+         cutree_rows = 2,
+         cutree_cols = 2)
+# 
+# 
+# 
+# 
+# 
+# fit = hclust(as.dist(mash.dist), method = 'ave')
+# png(filename = file.path(wd, "clusters.png"), width = 5, height = 5)
+# png("cluster.png")
+# plot(fit)
+# while (!is.null(dev.list()))  dev.off()
+# invisible(dev.off())
+# 
+# # Heatmap
+# tri.df = hot.df
+# tri.df[upper.tri(tri.df)] = NA
+# counts = na.omit(melt(as.matrix(tri.df)))
+# colnames(counts) = c("s1", "s2", "value")
+# 
+# hm = ggplot(counts, aes(s1, s2)) +
+#   ggtitle('Shared Reads (Normalized)') +
+#   theme_bw() +
+#   xlab('Sample1') +
+#   ylab('Sample2') +
+#   geom_tile(aes(fill = value), color='white') +
+#   scale_fill_gradient(low = 'white', high = 'darkblue', space = 'Lab') +
+#   theme(axis.text.x = element_text(angle=45, hjust = 1),
+#         axis.ticks = element_blank(),
+#         axis.title.x = element_blank(),
+#         axis.title.y = element_blank(),
+#         axis.line = element_blank(),
+#         panel.border = element_blank(),
+#         panel.grid.major = element_blank())
+# 
+# ggsave(file = file.path(out.dir, "heatmap.png"), width = 5, height = 5, plot=hm)
+# 
+# 
+# 
+# colors = colorRampPalette(rev(brewer.pal(9, "Blues")) )(255)
+# 
+#          
+# 
+# k = 10
+# sil = rep(0,k)
+# for (i in 2:k) {
+#   mem = cutree(fit,i)
+#   aa = silhouette(mem, dist.matrix)
+#   sil[i] = mean(aa[,3])
+# }
+# plot(1:k,sil)
+# lines(1:k,sil)
+# 
+# k = 6
+# Gap = rep(0, k)
+# se = rep(0, k)
+# for (i in 2:k) {
+#   mem = cutree(fit, i)
+#   result = gap(df, class=mem)
+#   Gap[i] = result[1]
+#   se[i] = result[2]
+# }
+# errbar(1:k, Gap, Gap-se, Gap+se, xlab = "Number of clusters")
+# lines(1:k, Gap) 
+```
+
+## References
+
+Odnov et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biology 2016 17:132. https://doi.org/10.1186/s13059-016-0997-x
+
+Sun at al. "Community cyberinfrastructure for Advanced Microbial Ecology Research and Analysis: the CAMERA resource". Nucleic Acids Res. 2011 Jan; 39(Database issue): D546–D551.

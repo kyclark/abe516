@@ -1,0 +1,3861 @@
+sample_id	biome
+1	Acid mine drainage
+2	Acid mine drainage
+3	Animal-associated
+44	Polar
+45	Polar
+46	Polar
+47	Polar
+48	Polar
+49	Polar
+50	Polar
+51	Polar
+52	Polar
+53	Polar
+54	Polar
+55	Polar
+56	Polar
+57	Polar
+58	Polar
+59	Polar
+60	Polar
+61	Polar
+62	Polar
+63	Polar
+64	Polar
+65	Polar
+66	Polar
+67	Polar
+68	Polar
+69	Polar
+70	Polar
+71	Polar
+72	Polar
+73	Polar
+74	Polar
+75	Polar
+76	Polar
+77	Polar
+78	Polar
+79	Polar
+80	Polar
+81	Polar
+82	Polar
+83	Polar
+84	Polar
+85	Polar
+86	Polar
+87	Polar
+88	Polar
+89	Polar
+90	Polar
+91	Polar
+92	Polar
+93	Polar
+94	Polar
+95	Polar
+96	Polar
+97	Polar
+98	Polar
+99	Polar
+100	Polar
+101	Polar
+102	Polar
+103	Polar
+104	Polar
+105	Polar
+106	Polar
+107	Polar
+108	Polar
+109	Polar
+110	Polar
+111	Polar
+112	Polar
+113	Polar
+114	Polar
+115	Polar
+116	Polar
+117	Polar
+118	Polar
+119	Polar
+120	Polar
+121	Polar
+122	Polar
+123	Polar
+124	Polar
+125	Polar
+126	Polar
+127	Polar
+128	Polar
+129	Polar
+130	Polar
+131	Polar
+132	Polar
+133	Polar
+134	Polar
+135	Polar
+136	Polar
+137	Polar
+138	Polar
+139	Polar
+140	Polar
+141	Polar
+142	Polar
+143	Polar
+144	Polar
+145	Polar
+146	Polar
+147	Polar
+148	Polar
+149	Polar
+150	Polar
+151	Polar
+152	Polar
+153	Polar
+154	Polar
+155	Polar
+156	Polar
+157	Polar
+158	Polar
+159	Polar
+160	Polar
+161	Polar
+162	Polar
+163	Polar
+164	Polar
+165	Polar
+166	Polar
+167	Polar
+168	Polar
+169	Polar
+170	Polar
+171	Polar
+172	Polar
+173	Polar
+174	Polar
+175	Polar
+176	Polar
+177	Polar
+178	Polar
+179	Polar
+180	Polar
+181	Polar
+182	Polar
+183	Polar
+184	Polar
+185	Polar
+186	Polar
+187	Polar
+188	Polar
+189	Polar
+190	Polar
+191	Polar
+192	Polar
+193	Polar
+194	Polar
+195	Polar
+196	Polar
+197	Polar
+198	Polar
+199	Polar
+200	Polar
+201	Polar
+202	Polar
+203	Polar
+204	Polar
+205	Polar
+206	Plant-associated
+207	Plant-associated
+208	Plant-associated
+209	Plant-associated
+210	Plant-associated
+211	Plant-associated
+212	Plant-associated
+213	Plant-associated
+214	Plant-associated
+215	Plant-associated
+216	Plant-associated
+217	Plant-associated
+218	Plant-associated
+219	Plant-associated
+220	Plant-associated
+221	Plant-associated
+222	Plant-associated
+223	Plant-associated
+224	Plant-associated
+225	Plant-associated
+226	Plant-associated
+227	Plant-associated
+228	Plant-associated
+229	Plant-associated
+230	Plant-associated
+231	Plant-associated
+232	Plant-associated
+233	Plant-associated
+234	Oceanic gyre
+235	Oceanic gyre
+236	Oceanic gyre
+237	Oceanic gyre
+238	Oceanic gyre
+239	Oceanic gyre
+240	Oceanic gyre
+241	Oceanic gyre
+242	Oceanic gyre
+243	Oceanic gyre
+244	Oceanic gyre
+245	Oceanic gyre
+246	Oceanic gyre
+247	Oceanic gyre
+248	Oceanic pelagic zone
+249	Oceanic pelagic zone
+250	Oceanic pelagic zone
+251	Oceanic pelagic zone
+252	Oceanic pelagic zone
+253	Oceanic pelagic zone
+254	Oceanic pelagic zone
+255	Oceanic pelagic zone
+258	Hot spring
+259	Hot spring
+260	Hot spring
+261	Hot spring
+262	Coastal sea water
+263	Coastal sea water
+264	Coastal sea water
+265	Coastal sea water
+266	Coastal sea water
+267	Coastal sea water
+268	Coastal sea water
+269	Coastal sea water
+270	Coastal sea water
+271	Coastal sea water
+272	Coastal sea water
+273	Coastal sea water
+274	Coastal sea water
+275	Coastal sea water
+276	Coastal sea water
+277	Coastal sea water
+278	Coastal sea water
+279	Coastal sea water
+280	Coastal sea water
+281	Coastal sea water
+282	Coastal sea water
+283	Coastal sea water
+284	Coastal sea water
+285	Coastal sea water
+286	Coastal sea water
+287	Coastal sea water
+288	Coastal sea water
+289	Marine
+290	Marine
+291	Animal-associated
+292	Animal-associated
+293	Animal-associated
+294	Animal-associated
+295	Marine
+296	Marine
+297	Marine
+298	Marine hydrothermal vent
+299	Marine hydrothermal vent
+300	Marine hydrothermal vent
+301	Marine hydrothermal vent
+302	Marine
+303	Marine
+304	Marine
+305	Marine
+306	Marine
+307	Marine
+308	Marine sediment
+309	Freshwater lake
+310	Marine
+311	Lake sediment
+312	Marine sediment
+313	Marine hydrothermal vent
+314	Marine sediment
+315	Marine
+316	Marine sediment
+317	Coastal sea water
+318	Marine hydrothermal vent
+319	Polar
+320	Polar
+321	Polar
+322	Marine
+323	Freshwater lake
+324	Marine
+325	Oceanic gyre
+326	Marine sediment
+327	Marine sediment
+328	Coastal sea water
+329	Coastal sea water
+330	Coastal sea water
+331	Marine hydrothermal vent
+332	Oceanic gyre
+333	Marine
+334	Marine
+335	Coastal sea water
+336	Coastal sea water
+337	Coastal sea water
+338	Marine
+339	Lake sediment
+340	Marine hydrothermal vent
+341	Marine sediment
+342	Marine sediment
+343	Marine hydrothermal vent
+344	Polar
+345	Hot spring
+346	Oceanic gyre
+347	Marine
+348	Marine sediment
+349	Marine sediment
+350	Marine sediment
+351	Marine sediment
+352	Marine sediment
+353	Marine
+354	Marine
+355	Marine sediment
+356	Marine
+357	Marine sediment
+358	Hot spring
+359	Polar
+360	Polar
+361	Marine
+362	Marine
+363	Marine
+364	Marine
+365	Marine
+366	Animal-associated
+367	Marine
+368	Marine
+369	Marine
+370	Hot spring
+371	Hot spring
+372	Hot spring
+373	Polar
+374	Marine
+375	Marine
+376	Hot spring
+377	Marine
+378	Marine
+379	Hot spring
+380	Hot spring
+381	Hot spring
+382	Polar
+383	Marine
+384	Marine
+385	Marine
+386	Hot spring
+387	Hot spring
+388	Polar
+389	Polar
+390	Marine
+391	Marine
+392	Marine
+393	Marine
+394	Marine
+395	Marine
+396	Marine
+397	Marine
+398	Marine
+399	Marine
+400	Hot spring
+401	Polar
+402	Marine
+403	Marine
+404	Hot spring
+405	Hot spring
+406	Polar
+407	Marine
+408	Marine
+409	Marine
+410	Marine
+411	Hot spring
+412	Hot spring
+413	Hot spring
+414	Polar
+415	Polar
+416	Marine
+417	Marine
+418	Marine
+419	Marine
+420	Marine
+421	Marine
+422	Hot spring
+423	Marine
+424	Marine
+425	Marine
+545	Estuary
+547	Sediment permeated by freshwater
+548	Sediment permeated by freshwater
+549	Animal-associated
+550	Animal-associated
+551	Animal-associated
+552	Animal-associated
+553	Animal-associated
+554	Animal-associated
+555	Animal-associated
+556	Animal-associated
+557	Animal-associated
+558	Animal-associated
+559	Animal-associated
+560	Animal-associated
+561	Animal-associated
+562	Animal-associated
+563	Animal-associated
+564	Marine
+565	Marine
+566	Marine
+567	Marine
+568	Marine
+569	Marine
+572	Marine
+573	Sewage
+574	Sewage
+575	Marine hydrothermal vent
+576	Soil
+577	Fossil
+578	Marine
+579	Marine
+580	Marine
+581	Marine
+582	Marine
+583	Marine
+584	Marine
+585	Marine
+586	Marine
+587	Marine
+588	Marine
+589	Marine
+590	Marine
+591	Marine
+592	Marine
+593	Marine
+594	Marine
+595	Marine
+596	Marine
+597	Marine
+598	Marine
+599	Marine
+600	Marine
+601	Marine
+602	Marine
+603	Marine
+604	Marine
+605	Marine
+606	Marine
+607	Marine
+608	Marine
+609	Marine
+610	Marine
+611	Marine
+612	Marine
+613	Marine
+614	Marine
+615	Marine
+616	Marine
+617	Marine
+618	Marine
+619	Marine
+620	Marine
+621	Marine
+622	Marine
+623	Marine
+624	Marine
+625	Marine
+626	Marine
+627	Marine
+628	Marine
+629	Marine
+630	Marine
+631	Marine
+632	Marine
+633	Marine
+634	Marine
+635	Marine
+636	Marine
+637	Marine
+638	Marine
+639	Marine
+640	Marine
+641	Marine
+642	Marine
+643	Marine
+644	Marine
+645	Marine
+646	Marine
+647	Marine
+648	Marine
+649	Marine
+650	Marine
+651	Marine
+652	Marine
+653	Marine
+654	Marine
+655	Marine
+656	Marine
+657	Marine
+658	Marine
+659	Marine
+660	Marine
+677	Marine sediment
+678	Animal-associated
+679	Animal-associated
+680	Animal-associated
+681	Animal-associated
+682	Animal-associated
+683	Animal-associated
+684	Animal-associated
+685	Oceanic gyre
+686	Oceanic gyre
+687	Oceanic gyre
+688	Oceanic gyre
+689	Oceanic gyre
+690	Oceanic gyre
+691	Oceanic gyre
+692	Oceanic gyre
+693	Oceanic gyre
+694	Oceanic gyre
+695	Oceanic gyre
+696	Oceanic gyre
+697	Oceanic gyre
+698	Oceanic gyre
+699	Oceanic gyre
+700	Oceanic gyre
+701	Oceanic gyre
+702	Oceanic gyre
+703	Oceanic gyre
+704	Oceanic gyre
+705	Oceanic gyre
+706	Oceanic gyre
+707	Oceanic gyre
+708	Oceanic gyre
+709	Oceanic gyre
+710	Animal-associated
+711	Animal-associated
+712	Animal-associated
+713	Animal-associated
+714	Animal-associated
+715	Animal-associated
+716	Animal-associated
+717	Animal-associated
+718	Animal-associated
+719	Animal-associated
+720	Animal-associated
+721	Animal-associated
+722	Animal-associated
+723	Animal-associated
+724	Animal-associated
+725	Animal-associated
+726	Animal-associated
+727	Animal-associated
+728	Marine hydrothermal vent
+729	Hypersaline water
+730	Hypersaline water
+731	Hypersaline water
+732	Hypersaline water
+733	Hypersaline water
+734	Hypersaline water
+735	Hypersaline water
+736	Hypersaline water
+737	Hypersaline water
+738	Hypersaline water
+739	Polar
+740	Polar
+741	Polar
+742	Polar
+743	Polar
+744	Polar
+745	Polar
+746	Polar
+747	Polar
+748	Polar
+749	Polar
+750	Polar
+751	Polar
+752	Polar
+753	Polar
+754	Polar
+755	Marine
+756	Marine
+757	Marine
+758	Glacier
+759	NA
+760	NA
+761	NA
+762	NA
+763	NA
+764	NA
+765	NA
+766	Polar
+767	Polar
+768	Marine
+769	Marine
+770	Marine
+771	Marine
+772	Marine
+773	Marine
+774	Marine
+775	Marine
+776	Saline evaporation pond
+962	Polar
+963	Saline water
+964	Marine
+965	Marine
+966	Marine
+967	Marine
+968	Marine
+969	Marine
+970	Marine
+971	Marine
+972	Marine
+973	Marine
+974	Marine
+975	Marine
+976	Marine
+977	Marine
+978	Marine
+979	Marine
+980	Marine
+981	Marine
+982	Marine
+983	Marine
+984	Marine
+985	Marine
+986	Marine
+987	Marine
+988	Marine
+989	Marine
+990	Marine
+991	Marine
+992	Marine
+993	Marine
+994	Marine
+995	Marine
+996	Marine
+997	Marine
+998	Marine
+999	Marine
+1000	Marine
+1001	Marine
+1002	Marine
+1003	Marine
+1004	Marine
+1005	Marine
+1006	Marine
+1007	Marine
+1008	Marine
+1009	Marine
+1010	Marine
+1011	Marine
+1012	Marine
+1013	Marine
+1014	Marine
+1015	Marine
+1016	Marine
+1017	Marine
+1018	Marine
+1019	Marine
+1020	Marine
+1021	Marine
+1022	Marine
+1023	Marine
+1024	Marine
+1025	Marine
+1026	Marine
+1027	Marine
+1028	Marine
+1029	Marine
+1030	Marine
+1031	Marine
+1032	Marine
+1033	Marine
+1034	Marine
+1035	Marine
+1036	Marine
+1037	Marine
+1038	Marine
+1039	Marine
+1040	Marine
+1041	Marine
+1042	Marine
+1043	Marine
+1044	Marine
+1045	Marine
+1046	Marine
+1047	Marine
+1048	Marine
+1049	Marine
+1050	Marine
+1051	Marine
+1052	Marine
+1053	Marine
+1054	Marine
+1055	Marine
+1056	Marine
+1057	Marine
+1058	Marine
+1059	Marine
+1060	Marine
+1061	Marine
+1062	Marine
+1063	Marine
+1064	Marine
+1065	Marine
+1066	Marine
+1067	Marine
+1068	Marine
+1069	Marine
+1070	Marine
+1071	Marine
+1072	Marine
+1073	Marine
+1074	Marine
+1075	Marine
+1076	Marine
+1077	Marine
+1078	Marine
+1079	Marine
+1080	Marine
+1081	Marine
+1082	Marine
+1083	Marine
+1084	Marine
+1085	Marine
+1086	Marine
+1087	Marine
+1088	Marine
+1089	Marine
+1090	Marine
+1091	Marine
+1092	Marine
+1093	Marine
+1094	Marine
+1095	Marine
+1096	Marine
+1097	Marine
+1098	Marine
+1099	Marine
+1100	Marine
+1101	Marine
+1102	Marine
+1103	Marine
+1104	Marine
+1105	Marine
+1106	Marine
+1107	Marine
+1108	Marine
+1109	Marine
+1110	Marine
+1111	Marine
+1112	Marine
+1113	Marine
+1114	Marine
+1115	Marine
+1116	Marine
+1117	Marine
+1118	Marine
+1119	Marine
+1120	Marine
+1121	Marine
+1122	Marine
+1123	Marine
+1124	Marine
+1125	Marine
+1126	Marine
+1127	Marine
+1128	Marine
+1129	Marine
+1130	Marine
+1131	Marine
+1132	Marine
+1133	Marine
+1134	Marine
+1135	Marine
+1136	Marine
+1137	Marine
+1138	Marine
+1139	NA
+1140	NA
+1141	Coastal sea water
+1142	Coastal sea water
+1143	Coastal sea water
+1144	Coastal sea water
+1145	Coastal sea water
+1146	Coastal sea water
+1147	Animal-associated
+1148	Animal-associated
+1149	Animal-associated
+1150	Animal-associated
+1151	Animal-associated
+1152	Animal-associated
+1153	Beach sand
+1154	Coastal sea water
+1155	Coastal sea water
+1156	Coastal sea water
+1157	Coastal sea water
+1158	Coastal sea water
+1159	Coastal sea water
+1160	Coastal sea water
+1161	Coastal sea water
+1162	Oceanic gyre
+1163	Oceanic gyre
+1164	Oceanic gyre
+1165	Oceanic gyre
+1166	Oceanic gyre
+1167	Oceanic gyre
+1168	Oceanic gyre
+1169	Oceanic gyre
+1170	Oceanic gyre
+1171	Oceanic gyre
+1172	Oceanic gyre
+1173	Oceanic gyre
+1174	Oceanic gyre
+1175	Oceanic gyre
+1176	Oceanic gyre
+1177	Oceanic gyre
+1178	Oceanic gyre
+1179	Oceanic gyre
+1180	Oceanic gyre
+1181	Oceanic gyre
+1182	Oceanic gyre
+1183	Oceanic gyre
+1184	Oceanic gyre
+1185	Oceanic gyre
+1186	Oceanic gyre
+1187	Oceanic gyre
+1188	Oceanic gyre
+1189	Oceanic gyre
+1190	Marine sediment
+1191	Marine sediment
+1192	Marine sediment
+1193	Marine sediment
+1194	Marine sediment
+1195	Sewage
+1196	Sewage
+1197	Sewage
+1198	Sewage
+1199	Sewage
+1200	Sewage
+1201	Air
+1202	Air
+1207	Saline evaporation pond
+1208	Saline evaporation pond
+1209	Saline evaporation pond
+1210	Saline evaporation pond
+1211	Saline evaporation pond
+1212	Saline evaporation pond
+1213	Saline evaporation pond
+1214	Saline evaporation pond
+1215	Saline evaporation pond
+1216	Saline evaporation pond
+1217	Saline evaporation pond
+1218	Saline evaporation pond
+1219	Saline evaporation pond
+1220	Saline evaporation pond
+1221	Saline evaporation pond
+1222	Saline evaporation pond
+1223	Saline evaporation pond
+1224	Saline evaporation pond
+1225	Saline evaporation pond
+1226	Saline evaporation pond
+1227	Saline evaporation pond
+1228	Saline evaporation pond
+1229	Saline evaporation pond
+1230	Saline evaporation pond
+1231	Saline evaporation pond
+1232	Saline evaporation pond
+1233	Saline evaporation pond
+1234	Saline evaporation pond
+1235	Saline evaporation pond
+1236	Saline evaporation pond
+1237	Saline evaporation pond
+1238	Saline evaporation pond
+1241	Coastal sea water
+1242	Coastal sea water
+1243	Coastal sea water
+1244	Coastal sea water
+1245	Coastal sea water
+1246	Coastal sea water
+1247	Coastal sea water
+1248	Coastal sea water
+1249	Marine
+1250	Marine
+1253	Marine
+1254	Animal-associated
+1255	Animal-associated
+1256	Animal-associated
+1257	Animal-associated
+1258	Animal-associated
+1259	Animal-associated
+1260	Animal-associated
+1261	Animal-associated
+1262	Animal-associated
+1263	Animal-associated
+1264	Animal-associated
+1265	Animal-associated
+1266	Animal-associated
+1267	Animal-associated
+1268	Animal-associated
+1269	Animal-associated
+1270	Animal-associated
+1271	Animal-associated
+1272	Animal-associated
+1273	Animal-associated
+1274	Animal-associated
+1275	Animal-associated
+1276	Hot spring
+1277	Hot spring
+1278	NA
+1279	NA
+1280	NA
+1281	Lake sediment
+1282	Lake sediment
+1283	Lake sediment
+1284	Lake sediment
+1285	Lake sediment
+1286	Sewage
+1287	Sewage
+1288	Sewage
+1289	Sewage
+1290	Sewage
+1291	Sewage
+1292	Sewage
+1293	Sewage
+1294	Sewage
+1295	Sewage
+1296	Sewage
+1297	Sewage
+1298	Sewage
+1299	Sewage
+1300	Marine
+1301	Marine
+1302	Marine
+1303	Marine
+1304	Marine
+1305	Marine
+1306	Marine
+1307	Marine
+1308	Marine
+1309	Marine
+1310	Marine
+1311	Marine
+1312	Marine
+1313	Marine
+1314	Marine
+1315	Marine
+1316	Marine
+1317	Marine
+1318	Marine
+1319	Marine
+1320	Marine
+1321	Marine
+1322	Marine
+1323	Marine
+1324	Marine
+1325	Marine
+1326	Marine
+1327	Marine
+1328	Marine
+1329	Marine
+1330	Animal-associated
+1331	Animal-associated
+1332	Animal-associated
+1333	Freshwater lake
+1334	Freshwater lake
+1335	Freshwater lake
+1336	Freshwater lake
+1337	Freshwater lake
+1338	Freshwater lake
+1339	Freshwater lake
+1340	Freshwater lake
+1341	Freshwater lake
+1342	Freshwater lake
+1343	Freshwater lake
+1344	Freshwater lake
+1345	Freshwater lake
+1346	Freshwater lake
+1347	Freshwater lake
+1348	Freshwater lake
+1349	Freshwater lake
+1350	Freshwater lake
+1351	Freshwater lake
+1352	Freshwater lake
+1353	Freshwater lake
+1354	Freshwater lake
+1355	Freshwater lake
+1356	Freshwater lake
+1357	Freshwater lake
+1358	Freshwater lake
+1359	Freshwater lake
+1360	Freshwater lake
+1361	Freshwater lake
+1362	Freshwater lake
+1363	Freshwater lake
+1364	Freshwater lake
+1365	Freshwater lake
+1366	Freshwater lake
+1367	Freshwater lake
+1368	Freshwater lake
+1369	Freshwater lake
+1370	Freshwater lake
+1371	Freshwater lake
+1372	Freshwater lake
+1373	Freshwater lake
+1374	Freshwater lake
+1375	Hot spring
+1376	Hot spring
+1377	Hot spring
+1378	Hot spring
+1379	Hot spring
+1380	Hot spring
+1381	Saline water aquarium
+1382	Marine
+1383	Marine
+1384	Animal-associated
+1385	Animal-associated
+1386	Animal-associated
+1387	Animal-associated
+1388	Animal-associated
+1389	Animal-associated
+1390	Marine
+1391	Marine
+1392	Marine
+1393	Marine
+1394	Marine
+1395	Marine
+1396	Marine
+1397	Marine
+1398	Coastal sea water
+1399	Coastal sea water
+1400	Coastal sea water
+1401	Coastal sea water
+1402	Coastal sea water
+1403	Coastal sea water
+1404	Coastal sea water
+1405	Coastal sea water
+1406	Coastal sea water
+1407	Coastal sea water
+1408	Coastal sea water
+1409	Coastal sea water
+1410	Coastal sea water
+1411	Coastal sea water
+1412	Coastal sea water
+1413	Coastal sea water
+1430	Coastal sea water
+1431	Coastal sea water
+1432	Coastal sea water
+1433	Coastal sea water
+1434	Coastal sea water
+1435	Coastal sea water
+1436	Coastal sea water
+1437	Coastal sea water
+1438	Coastal sea water
+1439	Coastal sea water
+1440	Coastal sea water
+1441	Coastal sea water
+1442	Coastal sea water
+1443	Coastal sea water
+1444	Coastal sea water
+1445	Coastal sea water
+1446	Coastal sea water
+1447	Coastal sea water
+1448	Coastal sea water
+1449	Coastal sea water
+1450	Coastal sea water
+1451	Coastal sea water
+1452	Coastal sea water
+1453	Coastal sea water
+1454	Coastal sea water
+1455	Coastal sea water
+1456	Coastal sea water
+1457	Coastal sea water
+1458	Coastal sea water
+1459	Coastal sea water
+1460	Coastal sea water
+1461	Coastal sea water
+1462	Marine
+1463	Marine
+1464	Marine
+1465	Marine
+1466	Marine
+1467	Marine
+1468	Marine
+1469	Marine
+1470	Marine
+1471	Marine
+1472	Marine
+1473	Marine
+1474	Marine
+1475	Marine
+1476	Marine
+1477	Marine
+1478	Marine
+1479	Marine
+1480	Marine
+1481	Marine
+1482	Marine
+1483	Marine
+1484	Marine
+1485	Marine
+1486	Marine
+1487	Marine
+1488	Marine
+1489	Marine
+1490	Marine
+1491	Marine
+1492	Marine
+1493	Marine
+1494	Marine
+1495	Marine
+1496	Marine
+1498	Animal-associated
+1499	Marine
+1500	Marine
+1501	Marine
+1502	Marine
+1503	Marine
+1504	Marine
+1505	Marine
+1506	Marine
+1511	Animal-associated
+1512	Animal-associated
+1513	Animal-associated
+1514	Animal-associated
+1515	Animal-associated
+1516	Animal-associated
+1517	Animal-associated
+1518	Animal-associated
+1519	Animal-associated
+1520	Animal-associated
+1521	Animal-associated
+1522	Animal-associated
+1523	Animal-associated
+1524	Animal-associated
+1525	Animal-associated
+1527	Saline water
+1528	Saline water
+1529	Saline water
+1530	Saline water
+1531	Saline water
+1532	Saline water
+1533	Saline water
+1534	Saline water
+1535	Saline water
+1536	Saline water
+1537	Saline water
+1538	Saline water
+1539	Saline water
+1540	Saline water
+1541	Saline water
+1542	Saline water
+1543	Saline water
+1544	Saline water
+1545	Saline water
+1546	Saline water
+1547	Saline water
+1548	Saline water
+1549	Saline water
+1550	Saline water
+1551	Saline water
+1552	Saline water
+1553	Saline water
+1554	Saline water
+1555	Saline water
+1556	Saline water
+1557	Saline water
+1558	Saline water
+1559	Saline water
+1560	Saline water
+1561	Saline water
+1562	Saline water
+1563	Saline water
+1564	Saline water
+1565	Saline water
+1566	Saline water
+1567	Saline water
+1568	Marine
+1569	Marine
+1570	Marine
+1571	Marine
+1572	Marine
+1573	Marine
+1574	Marine
+1575	Marine
+1576	Marine
+1577	Marine
+1578	Marine
+1579	Marine
+1580	Marine
+1581	Marine
+1582	Marine
+1583	Marine
+1584	Marine
+1585	Marine
+1586	Marine
+1587	Marine
+1588	Marine
+1589	Marine
+1590	Marine
+1591	Marine
+1592	Marine
+1593	Marine
+1594	Marine
+1595	Marine
+1596	Marine
+1597	Marine
+1598	Marine
+1599	Marine
+1600	Marine
+1601	Marine
+1607	Freshwater
+1608	Soil
+1609	Freshwater
+1610	Soil
+1643	Soil
+1644	Soil
+1645	Soil
+1646	Soil
+1647	Soil
+1648	Soil
+1649	Soil
+1650	Soil
+1651	Marine
+1652	Marine
+1653	Marine
+1654	Marine
+1655	Marine
+1656	Marine
+1657	Marine
+1658	Marine
+1659	Marine
+1660	Marine
+1661	Animal-associated
+2291	Marine
+2292	Marine
+2293	Marine
+2294	Marine
+2295	Marine
+2296	Marine
+2297	Marine
+2298	Marine
+2299	Marine
+2300	Marine
+2301	Marine
+2302	Marine
+2303	Animal-associated
+2304	Coastal sea water
+2305	Coastal sea water
+2306	Coastal sea water
+2307	Coastal sea water
+2308	Coastal sea water
+2309	Coastal sea water
+2310	Coastal sea water
+2311	Coastal sea water
+2312	Coastal sea water
+2313	Coastal sea water
+2314	Coastal sea water
+2315	Coastal sea water
+2316	Coastal sea water
+2321	Marine
+2322	Marine
+2323	Marine
+2324	Marine
+2325	Marine
+2366	Marine
+2367	Marine
+2368	Marine
+2369	Marine
+2370	Marine
+2371	Marine
+2372	Marine
+2373	Marine
+2374	Marine
+2375	Marine
+2376	Marine
+2377	Marine
+2378	Marine
+2379	Marine
+2380	Marine
+2381	Marine
+2382	Marine
+2383	Marine
+2384	Marine
+2385	Marine
+2386	Marine
+2387	Marine
+2388	Marine
+2389	Marine
+2390	Marine
+2391	Marine
+2392	Marine
+2393	Marine
+2394	Marine
+2395	Marine
+2396	Marine
+2397	Marine
+2398	Marine
+2399	Marine
+2400	Marine
+2401	Marine
+2402	Marine
+2403	Marine
+2404	Marine
+2405	Marine
+2406	Marine
+2407	Marine
+2408	Marine
+2409	Marine
+2410	Marine
+2411	Marine
+2412	Marine
+2413	Marine
+2414	Marine
+2415	Marine
+2416	Marine
+2417	Marine
+2418	Marine
+2419	Marine
+2420	Marine
+2421	Marine
+2422	Marine
+2423	Marine
+2424	Marine
+2425	Marine
+2426	Marine
+2427	Marine
+2428	Marine
+2429	Freshwater river
+2430	Marine
+2431	Saline water
+2432	Saline water
+2433	Freshwater
+2434	Freshwater
+2435	Freshwater
+2436	Lagoon
+2437	Lagoon
+2438	Lagoon
+2439	Marine
+2440	Marine
+2441	Marine
+2442	Marine
+2443	Marine
+2444	Marine
+2445	Marine
+2446	Marine
+2447	Marine
+2448	Marine
+2449	Marine
+2450	Marine
+2451	Marine
+2452	NA
+2453	Freshwater lake
+2454	Freshwater lake
+2455	Lake sediment
+2456	Freshwater lake
+2457	Freshwater lake
+2458	Freshwater lake
+2459	Freshwater lake
+2460	Freshwater lake
+2461	Freshwater lake
+2462	Freshwater lake
+2463	Freshwater lake
+2464	Freshwater lake
+2465	Freshwater lake
+2466	Freshwater lake
+2467	Freshwater lake
+2523	Marine
+2534	Polar
+2535	Polar
+2536	Polar
+2537	Polar
+2540	Animal-associated
+2541	Animal-associated
+2542	Animal-associated
+2543	Animal-associated
+2544	Animal-associated
+2545	Animal-associated
+2546	Animal-associated
+2547	Animal-associated
+2548	Animal-associated
+2549	Animal-associated
+2550	Animal-associated
+2551	Animal-associated
+2552	Animal-associated
+2553	Animal-associated
+2554	Animal-associated
+2555	Animal-associated
+2556	Animal-associated
+2557	Animal-associated
+2558	Animal-associated
+2559	Animal-associated
+2560	Animal-associated
+2561	Animal-associated
+2562	Animal-associated
+2563	Animal-associated
+2564	Animal-associated
+2565	Animal-associated
+2566	Animal-associated
+2567	Animal-associated
+2568	Animal-associated
+2569	Animal-associated
+2570	Animal-associated
+2571	Animal-associated
+2572	Animal-associated
+2573	Animal-associated
+2574	Animal-associated
+2575	Animal-associated
+2576	Animal-associated
+2577	Animal-associated
+2578	Animal-associated
+2579	Animal-associated
+2580	Animal-associated
+2581	Animal-associated
+2582	Animal-associated
+2583	Animal-associated
+2584	Animal-associated
+2585	Animal-associated
+2586	Animal-associated
+2587	Animal-associated
+2588	Animal-associated
+2589	Animal-associated
+2590	Animal-associated
+2591	Animal-associated
+2592	Animal-associated
+2593	Animal-associated
+2594	Animal-associated
+2595	Animal-associated
+2639	Marine
+2640	Marine
+2641	Marine
+2642	Marine
+2643	Marine
+2644	Marine
+2645	Marine
+2646	Marine
+2647	Marine
+2648	Marine
+2649	Marine
+2650	Marine
+2651	Marine
+2652	Marine
+2653	Marine
+2654	Marine
+2655	Marine
+2656	Marine
+2657	Marine
+2658	Marine
+2659	Marine
+2660	Marine
+2661	Marine
+2662	Marine
+2663	Marine
+2664	Marine
+2665	Marine
+2666	Marine
+2667	Marine
+2668	Marine
+2669	Marine
+2670	Marine
+2671	Marine
+2672	Marine
+2673	Marine
+2674	Marine
+2675	Marine
+2676	Marine
+2677	Marine
+2678	Marine
+2679	Marine
+2680	Marine
+2681	Marine
+2682	Marine
+2683	Marine
+2684	Marine
+2685	Marine
+2686	Marine
+2698	Marine
+2699	Marine
+2700	Marine
+2701	Marine
+2702	Marine
+2703	Marine
+2704	Marine
+2705	Marine
+2716	Marine
+2717	Marine
+2718	Marine
+2719	Marine
+2720	Marine
+2721	Marine
+2733	Marine
+2734	Marine
+2735	Marine
+2736	Marine
+2741	Animal-associated
+2742	Animal-associated
+2743	Animal-associated
+2744	Animal-associated
+2745	Animal-associated
+2746	Animal-associated
+2747	Animal-associated
+2748	Animal-associated
+2749	Animal-associated
+2750	Animal-associated
+2751	Animal-associated
+2752	Animal-associated
+2753	Animal-associated
+2754	Animal-associated
+2755	Animal-associated
+2756	Animal-associated
+2757	Animal-associated
+2758	Animal-associated
+2759	Animal-associated
+2760	Animal-associated
+2761	Animal-associated
+2762	Animal-associated
+2763	Animal-associated
+2764	Animal-associated
+2765	Animal-associated
+2766	Animal-associated
+2767	Animal-associated
+2768	Animal-associated
+2769	Animal-associated
+2770	Animal-associated
+2771	Animal-associated
+2772	Animal-associated
+2773	Animal-associated
+2774	Animal-associated
+2775	Animal-associated
+2776	Animal-associated
+2777	Animal-associated
+2778	Animal-associated
+2779	Animal-associated
+2780	Animal-associated
+2781	Animal-associated
+2782	Animal-associated
+2783	Animal-associated
+2784	Animal-associated
+2785	Animal-associated
+2786	Animal-associated
+2787	Animal-associated
+2788	Animal-associated
+2789	Animal-associated
+2790	Animal-associated
+2791	Animal-associated
+2792	Animal-associated
+2793	Animal-associated
+2794	Animal-associated
+2795	Animal-associated
+2796	Animal-associated
+2797	Animal-associated
+2798	Animal-associated
+2799	Animal-associated
+2800	Animal-associated
+2801	Animal-associated
+2802	Animal-associated
+2803	Animal-associated
+2804	Animal-associated
+2805	Animal-associated
+2806	Animal-associated
+2807	Animal-associated
+2808	Animal-associated
+2809	Animal-associated
+2810	Animal-associated
+2811	Animal-associated
+2812	Animal-associated
+2813	Animal-associated
+2814	Animal-associated
+2815	Animal-associated
+2816	Animal-associated
+2817	Animal-associated
+2818	Animal-associated
+2819	Animal-associated
+2820	Animal-associated
+2821	Animal-associated
+2822	Animal-associated
+2823	Animal-associated
+2824	Animal-associated
+2825	Animal-associated
+2826	Animal-associated
+2827	Animal-associated
+2828	Animal-associated
+2829	Animal-associated
+2830	Animal-associated
+2831	Animal-associated
+2832	Animal-associated
+2833	Animal-associated
+2834	Animal-associated
+2835	Animal-associated
+2836	Animal-associated
+2837	Animal-associated
+2838	Animal-associated
+2839	Animal-associated
+2840	Animal-associated
+2841	Animal-associated
+2842	Animal-associated
+2843	Animal-associated
+2844	Animal-associated
+2845	Animal-associated
+2846	Animal-associated
+2847	Animal-associated
+2848	Animal-associated
+2849	Animal-associated
+2850	Animal-associated
+2851	Animal-associated
+2852	Animal-associated
+2853	Animal-associated
+2854	Animal-associated
+2855	Animal-associated
+2856	Animal-associated
+2857	Animal-associated
+2858	Animal-associated
+2859	Animal-associated
+2860	Animal-associated
+2861	Animal-associated
+2862	Animal-associated
+2863	Animal-associated
+2864	Animal-associated
+2865	Animal-associated
+2866	Animal-associated
+2867	Animal-associated
+2868	Animal-associated
+2869	Animal-associated
+2870	Animal-associated
+2871	Animal-associated
+2872	Animal-associated
+2873	Animal-associated
+2874	Animal-associated
+2875	Animal-associated
+2876	Animal-associated
+2877	Animal-associated
+2878	Animal-associated
+2879	Animal-associated
+2880	Animal-associated
+2881	Animal-associated
+2882	Animal-associated
+2883	Animal-associated
+2884	Animal-associated
+2885	Animal-associated
+2886	Animal-associated
+2887	Animal-associated
+2888	Animal-associated
+2889	Animal-associated
+2890	Animal-associated
+2891	Animal-associated
+2892	Animal-associated
+2893	Animal-associated
+2894	Animal-associated
+2895	Animal-associated
+2896	Animal-associated
+2897	Animal-associated
+2898	Animal-associated
+2899	Animal-associated
+2900	Animal-associated
+2901	Animal-associated
+2902	Animal-associated
+2903	Animal-associated
+2904	Animal-associated
+2905	Animal-associated
+2906	Animal-associated
+2907	Animal-associated
+2908	Animal-associated
+2909	Animal-associated
+2910	Animal-associated
+2911	Animal-associated
+2912	Animal-associated
+2913	Animal-associated
+2914	Animal-associated
+2915	Animal-associated
+2916	Animal-associated
+2917	Animal-associated
+2918	Animal-associated
+2919	Animal-associated
+2920	Animal-associated
+2921	Animal-associated
+2922	Animal-associated
+2923	Animal-associated
+2924	Animal-associated
+2925	Animal-associated
+2926	Animal-associated
+2927	Animal-associated
+2928	Animal-associated
+2929	Animal-associated
+2930	Animal-associated
+2931	Animal-associated
+2932	Animal-associated
+2933	Animal-associated
+2934	Animal-associated
+2935	Animal-associated
+2936	Animal-associated
+2937	Animal-associated
+2938	Animal-associated
+2939	Animal-associated
+2940	Marine
+2941	Animal-associated
+2942	Animal-associated
+2943	Animal-associated
+2944	Animal-associated
+2945	Animal-associated
+2946	Animal-associated
+2947	Animal-associated
+2948	Animal-associated
+2949	Animal-associated
+2950	Animal-associated
+2951	Animal-associated
+2952	Animal-associated
+2953	Animal-associated
+2954	Animal-associated
+2955	Animal-associated
+2956	Animal-associated
+2957	Animal-associated
+2958	Animal-associated
+2959	Animal-associated
+2960	Animal-associated
+2961	Animal-associated
+2962	Animal-associated
+2963	Animal-associated
+2964	Animal-associated
+2965	Animal-associated
+2966	Animal-associated
+2967	Animal-associated
+2968	Animal-associated
+2969	Animal-associated
+2970	Animal-associated
+2971	Animal-associated
+2972	Animal-associated
+2973	Animal-associated
+2974	Animal-associated
+2975	Animal-associated
+2976	Animal-associated
+2977	Animal-associated
+2978	Animal-associated
+2979	Animal-associated
+2980	Animal-associated
+2981	Animal-associated
+2982	Animal-associated
+2983	Animal-associated
+2984	Animal-associated
+2985	Animal-associated
+2986	Animal-associated
+2987	Animal-associated
+2988	Animal-associated
+2989	Animal-associated
+2990	Animal-associated
+2991	Animal-associated
+2992	Animal-associated
+2993	Animal-associated
+2994	Animal-associated
+2995	Animal-associated
+2996	Animal-associated
+2997	Animal-associated
+2998	Animal-associated
+2999	Animal-associated
+3000	Animal-associated
+3001	Animal-associated
+3002	Animal-associated
+3003	Animal-associated
+3004	Animal-associated
+3005	Animal-associated
+3006	Animal-associated
+3007	Animal-associated
+3008	Animal-associated
+3009	Animal-associated
+3010	Animal-associated
+3011	Animal-associated
+3012	Animal-associated
+3013	Animal-associated
+3014	Animal-associated
+3015	Animal-associated
+3016	Animal-associated
+3017	Animal-associated
+3018	Animal-associated
+3019	Animal-associated
+3020	Animal-associated
+3021	Animal-associated
+3022	Animal-associated
+3023	Animal-associated
+3024	Animal-associated
+3025	Animal-associated
+3026	Animal-associated
+3027	Animal-associated
+3028	Animal-associated
+3029	Animal-associated
+3030	Animal-associated
+3031	Animal-associated
+3032	Animal-associated
+3033	Animal-associated
+3034	Animal-associated
+3035	Animal-associated
+3036	Animal-associated
+3037	Animal-associated
+3038	Animal-associated
+3039	Animal-associated
+3040	Animal-associated
+3041	Animal-associated
+3042	Animal-associated
+3043	Animal-associated
+3044	Animal-associated
+3045	Animal-associated
+3046	Animal-associated
+3047	Animal-associated
+3048	Animal-associated
+3049	Animal-associated
+3050	Animal-associated
+3051	Animal-associated
+3052	Animal-associated
+3053	Animal-associated
+3054	Animal-associated
+3055	Animal-associated
+3056	Animal-associated
+3057	Animal-associated
+3058	Animal-associated
+3059	Animal-associated
+3060	Animal-associated
+3061	Animal-associated
+3062	Animal-associated
+3063	Animal-associated
+3064	Animal-associated
+3065	Animal-associated
+3066	Animal-associated
+3067	Animal-associated
+3068	Animal-associated
+3069	Animal-associated
+3070	Animal-associated
+3071	Animal-associated
+3072	Animal-associated
+3073	Animal-associated
+3074	Animal-associated
+3075	Animal-associated
+3076	Animal-associated
+3077	Animal-associated
+3078	Animal-associated
+3079	Animal-associated
+3080	Animal-associated
+3081	Animal-associated
+3082	Animal-associated
+3083	Animal-associated
+3084	Animal-associated
+3085	Animal-associated
+3086	Animal-associated
+3087	Animal-associated
+3088	Animal-associated
+3089	Animal-associated
+3090	Animal-associated
+3091	Animal-associated
+3092	Animal-associated
+3093	Animal-associated
+3094	Animal-associated
+3095	Animal-associated
+3096	Animal-associated
+3097	Animal-associated
+3098	Animal-associated
+3099	Animal-associated
+3100	Animal-associated
+3101	Animal-associated
+3102	Animal-associated
+3103	Animal-associated
+3104	Animal-associated
+3105	Animal-associated
+3106	Animal-associated
+3107	Animal-associated
+3108	Animal-associated
+3109	Animal-associated
+3110	Animal-associated
+3111	Animal-associated
+3112	Animal-associated
+3113	Animal-associated
+3114	Animal-associated
+3115	Animal-associated
+3116	Animal-associated
+3117	Animal-associated
+3118	Animal-associated
+3119	Animal-associated
+3120	Animal-associated
+3121	Animal-associated
+3122	Animal-associated
+3123	Animal-associated
+3124	Animal-associated
+3125	Animal-associated
+3126	Animal-associated
+3127	Animal-associated
+3128	Animal-associated
+3129	Animal-associated
+3130	Animal-associated
+3131	Animal-associated
+3132	Animal-associated
+3133	Animal-associated
+3134	Animal-associated
+3135	Animal-associated
+3136	Animal-associated
+3137	Animal-associated
+3138	Animal-associated
+3139	Animal-associated
+3140	Animal-associated
+3141	Animal-associated
+3142	Animal-associated
+3143	Animal-associated
+3144	Animal-associated
+3145	Animal-associated
+3146	Animal-associated
+3147	Animal-associated
+3148	Animal-associated
+3149	Animal-associated
+3150	Animal-associated
+3151	Animal-associated
+3152	Animal-associated
+3153	Animal-associated
+3154	Animal-associated
+3155	Animal-associated
+3156	Animal-associated
+3157	Animal-associated
+3158	Animal-associated
+3159	Animal-associated
+3160	Animal-associated
+3161	Animal-associated
+3162	Animal-associated
+3163	Animal-associated
+3164	Animal-associated
+3165	Animal-associated
+3166	Animal-associated
+3167	Animal-associated
+3168	Animal-associated
+3169	Animal-associated
+3170	Animal-associated
+3171	Animal-associated
+3172	Animal-associated
+3173	Animal-associated
+3174	Animal-associated
+3175	Animal-associated
+3176	Animal-associated
+3177	Animal-associated
+3178	Animal-associated
+3179	Animal-associated
+3180	Animal-associated
+3181	Animal-associated
+3182	Animal-associated
+3183	Animal-associated
+3184	Animal-associated
+3185	Animal-associated
+3186	Animal-associated
+3187	Animal-associated
+3188	Animal-associated
+3189	Animal-associated
+3190	Animal-associated
+3191	Animal-associated
+3192	Animal-associated
+3193	Animal-associated
+3194	Animal-associated
+3195	Animal-associated
+3196	Animal-associated
+3197	Animal-associated
+3198	Animal-associated
+3199	Animal-associated
+3200	Animal-associated
+3201	Animal-associated
+3202	Animal-associated
+3203	Animal-associated
+3204	Animal-associated
+3205	Animal-associated
+3206	Animal-associated
+3207	Animal-associated
+3208	Animal-associated
+3209	Animal-associated
+3210	Animal-associated
+3211	Animal-associated
+3212	Animal-associated
+3213	Animal-associated
+3214	Animal-associated
+3215	Animal-associated
+3216	Animal-associated
+3217	Animal-associated
+3218	Animal-associated
+3219	Animal-associated
+3220	Animal-associated
+3221	Animal-associated
+3222	Animal-associated
+3223	Animal-associated
+3224	Animal-associated
+3225	Animal-associated
+3226	Animal-associated
+3227	Animal-associated
+3228	Animal-associated
+3229	Animal-associated
+3230	Animal-associated
+3231	Animal-associated
+3232	Animal-associated
+3233	Animal-associated
+3234	Animal-associated
+3235	Animal-associated
+3236	Animal-associated
+3237	Animal-associated
+3238	Animal-associated
+3239	Animal-associated
+3240	Animal-associated
+3241	Animal-associated
+3242	Animal-associated
+3243	Animal-associated
+3244	Animal-associated
+3245	Animal-associated
+3246	Animal-associated
+3247	Animal-associated
+3248	Animal-associated
+3249	Animal-associated
+3250	Animal-associated
+3251	Animal-associated
+3252	Animal-associated
+3253	Animal-associated
+3254	Animal-associated
+3255	Animal-associated
+3256	Animal-associated
+3257	Animal-associated
+3258	Animal-associated
+3259	Animal-associated
+3260	Animal-associated
+3261	Animal-associated
+3262	Animal-associated
+3263	Animal-associated
+3264	Animal-associated
+3265	Animal-associated
+3266	Animal-associated
+3267	Animal-associated
+3268	Animal-associated
+3269	Animal-associated
+3270	Animal-associated
+3271	Marine
+3272	Animal-associated
+3273	Animal-associated
+3274	Animal-associated
+3275	Animal-associated
+3276	Animal-associated
+3277	Animal-associated
+3278	Animal-associated
+3279	Animal-associated
+3280	Animal-associated
+3281	Animal-associated
+3282	Animal-associated
+3283	Freshwater lake
+3284	Freshwater lake
+3285	Freshwater lake
+3286	Freshwater lake
+3287	Animal-associated
+3288	Animal-associated
+3289	Animal-associated
+3290	Animal-associated
+3291	Animal-associated
+3292	Animal-associated
+3293	Animal-associated
+3294	Animal-associated
+3295	Animal-associated
+3296	Animal-associated
+3297	Animal-associated
+3298	Animal-associated
+3299	Animal-associated
+3300	Animal-associated
+3301	Animal-associated
+3302	Animal-associated
+3303	Animal-associated
+3304	Animal-associated
+3305	Animal-associated
+3306	Animal-associated
+3307	Animal-associated
+3308	Freshwater lake
+3309	Freshwater lake
+3310	Freshwater lake
+3311	Freshwater lake
+3312	Freshwater lake
+3313	Freshwater lake
+3314	Freshwater lake
+3315	Freshwater lake
+3316	Freshwater lake
+3317	Freshwater lake
+3318	Freshwater lake
+3319	Freshwater lake
+3320	Freshwater lake
+3321	Freshwater lake
+3322	Freshwater lake
+3323	Freshwater lake
+3324	Freshwater lake
+3325	Freshwater lake
+3326	Freshwater lake
+3327	Freshwater lake
+3328	Freshwater lake
+3329	Freshwater lake
+3330	Freshwater lake
+3331	Freshwater lake
+3332	Freshwater lake
+3333	Freshwater lake
+3334	Freshwater lake
+3335	Freshwater lake
+3336	Animal-associated
+3337	Animal-associated
+3338	Animal-associated
+3339	Animal-associated
+3340	Animal-associated
+3341	Animal-associated
+3342	Animal-associated
+3343	Animal-associated
+3344	Animal-associated
+3345	Animal-associated
+3346	Animal-associated
+3347	Animal-associated
+3348	Animal-associated
+3349	Animal-associated
+3350	Animal-associated
+3351	Animal-associated
+3352	Animal-associated
+3353	Animal-associated
+3354	Animal-associated
+3355	Animal-associated
+3356	Animal-associated
+3357	Animal-associated
+3358	Animal-associated
+3359	Animal-associated
+3360	Animal-associated
+3361	Animal-associated
+3362	Animal-associated
+3363	Animal-associated
+3364	Animal-associated
+3365	Animal-associated
+3366	Animal-associated
+3367	Animal-associated
+3368	Animal-associated
+3369	Animal-associated
+3370	Animal-associated
+3371	Animal-associated
+3372	Animal-associated
+3373	Animal-associated
+3374	Animal-associated
+3375	Animal-associated
+3376	Animal-associated
+3377	Animal-associated
+3378	Animal-associated
+3379	Animal-associated
+3380	Animal-associated
+3381	Animal-associated
+3382	Animal-associated
+3383	Animal-associated
+3384	Animal-associated
+3385	Animal-associated
+3386	Animal-associated
+3387	Animal-associated
+3388	Animal-associated
+3389	Animal-associated
+3390	Animal-associated
+3391	Animal-associated
+3392	Animal-associated
+3393	Animal-associated
+3394	Animal-associated
+3395	Animal-associated
+3396	Animal-associated
+3397	Animal-associated
+3398	Animal-associated
+3399	Animal-associated
+3400	Animal-associated
+3401	Animal-associated
+3402	Animal-associated
+3403	Animal-associated
+3404	Animal-associated
+3405	Animal-associated
+3406	Animal-associated
+3407	Animal-associated
+3408	Animal-associated
+3409	Animal-associated
+3410	Animal-associated
+3411	Animal-associated
+3412	Animal-associated
+3413	Animal-associated
+3414	Animal-associated
+3415	Animal-associated
+3416	Animal-associated
+3417	Animal-associated
+3418	Animal-associated
+3419	Animal-associated
+3420	Animal-associated
+3421	Animal-associated
+3422	Animal-associated
+3423	Animal-associated
+3424	Animal-associated
+3425	Animal-associated
+3426	Animal-associated
+3427	Animal-associated
+3428	Animal-associated
+3429	Animal-associated
+3430	Animal-associated
+3431	Animal-associated
+3432	Animal-associated
+3433	Animal-associated
+3434	Animal-associated
+3435	Animal-associated
+3436	Animal-associated
+3437	Animal-associated
+3438	Animal-associated
+3439	Animal-associated
+3440	Animal-associated
+3441	Animal-associated
+3442	Animal-associated
+3443	Animal-associated
+3444	Animal-associated
+3445	Animal-associated
+3446	Animal-associated
+3447	Animal-associated
+3448	Animal-associated
+3449	Animal-associated
+3450	Animal-associated
+3451	Animal-associated
+3452	Animal-associated
+3453	Animal-associated
+3454	Animal-associated
+3455	Animal-associated
+3456	Animal-associated
+3457	Animal-associated
+3458	Animal-associated
+3459	Animal-associated
+3460	Animal-associated
+3461	Animal-associated
+3462	Animal-associated
+3463	Animal-associated
+3464	Animal-associated
+3465	Animal-associated
+3466	Animal-associated
+3467	Animal-associated
+3468	Animal-associated
+3469	Animal-associated
+3470	Animal-associated
+3471	Animal-associated
+3472	Animal-associated
+3473	Animal-associated
+3474	Animal-associated
+3475	Animal-associated
+3476	Animal-associated
+3477	Animal-associated
+3478	Animal-associated
+3479	Animal-associated
+3480	Animal-associated
+3481	Animal-associated
+3482	Animal-associated
+3483	Animal-associated
+3484	Animal-associated
+3485	Animal-associated
+3486	Animal-associated
+3487	Animal-associated
+3488	Animal-associated
+3489	Animal-associated
+3490	Animal-associated
+3491	Animal-associated
+3492	Animal-associated
+3493	Animal-associated
+3494	Animal-associated
+3495	Animal-associated
+3496	Animal-associated
+3497	Animal-associated
+3506	Marine
+3507	Marine
+3508	Marine
+3509	Marine
+3510	Marine
+3511	Animal-associated
+3512	Animal-associated
+3513	Animal-associated
+3514	Animal-associated
+3515	Animal-associated
+3522	NA
+3523	Hot spring
+3524	Hot spring
+3534	Animal-associated
+3535	Animal-associated
+3536	Animal-associated
+3537	Animal-associated
+3538	Animal-associated
+3539	Animal-associated
+3540	Animal-associated
+3541	Animal-associated
+3542	Animal-associated
+3543	Animal-associated
+3544	Animal-associated
+3545	Animal-associated
+3546	Animal-associated
+3547	Animal-associated
+3548	Animal-associated
+3549	Animal-associated
+3550	Animal-associated
+3551	Animal-associated
+3552	Animal-associated
+3553	Animal-associated
+3554	Animal-associated
+3555	Animal-associated
+3556	Animal-associated
+3557	Animal-associated
+3558	Animal-associated
+3559	Animal-associated
+3560	Animal-associated
+3561	Animal-associated
+3562	Animal-associated
+3563	Animal-associated
+3564	Animal-associated
+3565	Animal-associated
+3566	Animal-associated
+3588	Marine
+3589	Marine
+3590	Marine
+3591	Marine
+3592	Animal-associated
+3593	Animal-associated
+3594	Animal-associated
+3595	Animal-associated
+3596	Animal-associated
+3597	Animal-associated
+3598	Animal-associated
+3599	Animal-associated
+3600	Animal-associated
+3601	Animal-associated
+3602	Animal-associated
+3603	Animal-associated
+3604	Animal-associated
+3605	Animal-associated
+3606	Animal-associated
+3607	Animal-associated
+3608	Animal-associated
+3609	Animal-associated
+3610	Animal-associated
+3611	Animal-associated
+3612	Animal-associated
+3613	Animal-associated
+3614	Animal-associated
+3615	Animal-associated
+3616	Animal-associated
+3617	Animal-associated
+3618	Animal-associated
+3619	Animal-associated
+3620	Animal-associated
+3621	Animal-associated
+3622	Animal-associated
+3623	Animal-associated
+3624	Animal-associated
+3625	Animal-associated
+3626	Animal-associated
+3627	Animal-associated
+3628	Animal-associated
+3629	Animal-associated
+3630	Animal-associated
+3631	Animal-associated
+3632	Animal-associated
+3633	Animal-associated
+3634	Animal-associated
+3635	Animal-associated
+3636	Animal-associated
+3637	Animal-associated
+3638	Animal-associated
+3639	Animal-associated
+3640	Animal-associated
+3641	Animal-associated
+3642	Animal-associated
+3643	Animal-associated
+3644	Animal-associated
+3645	Animal-associated
+3646	Animal-associated
+3647	Animal-associated
+3648	Animal-associated
+3649	Animal-associated
+3650	Animal-associated
+3651	Animal-associated
+3652	Animal-associated
+3653	Animal-associated
+3654	Animal-associated
+3655	Animal-associated
+3656	Animal-associated
+3657	Animal-associated
+3658	Animal-associated
+3659	Animal-associated
+3660	Animal-associated
+3661	Animal-associated
+3662	Animal-associated
+3663	Animal-associated
+3664	Animal-associated
+3665	Animal-associated
+3666	Animal-associated
+3667	Animal-associated
+3668	Animal-associated
+3669	Animal-associated
+3670	Animal-associated
+3671	Animal-associated
+3672	Animal-associated
+3673	Animal-associated
+3674	Animal-associated
+3675	Animal-associated
+3676	Animal-associated
+3677	Animal-associated
+3678	Animal-associated
+3679	Animal-associated
+3680	Animal-associated
+3681	Animal-associated
+3682	Animal-associated
+3683	Animal-associated
+3684	Animal-associated
+3685	Animal-associated
+3686	Animal-associated
+3687	Animal-associated
+3688	Animal-associated
+3689	Animal-associated
+3690	Animal-associated
+3691	Animal-associated
+3692	Animal-associated
+3693	Animal-associated
+3694	Animal-associated
+3695	Animal-associated
+3696	Animal-associated
+3697	Animal-associated
+3698	Animal-associated
+3699	Animal-associated
+3700	Animal-associated
+3701	Animal-associated
+3702	Animal-associated
+3703	Animal-associated
+3704	Animal-associated
+3705	Animal-associated
+3706	Animal-associated
+3707	Animal-associated
+3708	Animal-associated
+3709	Animal-associated
+3710	Animal-associated
+3711	Animal-associated
+3712	Animal-associated
+3713	Animal-associated
+3714	Animal-associated
+3715	Animal-associated
+3716	Animal-associated
+3717	Animal-associated
+3718	Animal-associated
+3719	NA
+3720	NA
+3721	NA
+3722	NA
+3723	NA
+3724	Animal-associated
+3725	Animal-associated
+3726	Animal-associated
+3727	Animal-associated
+3728	Animal-associated
+3729	Animal-associated
+3730	Animal-associated
+3731	Animal-associated
+3732	Animal-associated
+3733	Animal-associated
+3734	Animal-associated
+3735	Animal-associated
+3736	Animal-associated
+3737	Animal-associated
+3738	Animal-associated
+3739	Animal-associated
+3740	Animal-associated
+3741	Animal-associated
+3742	Animal-associated
+3743	Animal-associated
+3744	Animal-associated
+3745	Animal-associated
+3746	Animal-associated
+3747	Animal-associated
+3748	Animal-associated
+3749	Animal-associated
+3750	Animal-associated
+3751	Animal-associated
+3752	Animal-associated
+3753	Animal-associated
+3754	Animal-associated
+3755	Animal-associated
+3756	Animal-associated
+3757	Animal-associated
+3758	Animal-associated
+3759	Animal-associated
+3760	Animal-associated
+3761	Animal-associated
+3762	Animal-associated
+3763	Animal-associated
+3764	Animal-associated
+3765	Animal-associated
+3766	Animal-associated
+3767	Animal-associated
+3768	Animal-associated
+3769	Animal-associated
+3770	Animal-associated
+3771	Animal-associated
+3772	Animal-associated
+3773	Animal-associated
+3774	Animal-associated
+3775	Animal-associated
+3776	Animal-associated
+3777	Animal-associated
+3778	Animal-associated
+3779	Animal-associated
+3780	Animal-associated
+3781	Animal-associated
+3782	Animal-associated
+3783	Animal-associated
+3784	Animal-associated
+3785	Animal-associated
+3786	Animal-associated
+3787	Animal-associated
+3788	Animal-associated
+3789	Animal-associated
+3790	Animal-associated
+3791	Animal-associated
+3792	Animal-associated
+3793	Animal-associated
+3794	Animal-associated
+3795	Animal-associated
+3796	Animal-associated
+3797	Animal-associated
+3798	Animal-associated
+3799	Animal-associated
+3800	Animal-associated
+3801	Animal-associated
+3802	Animal-associated
+3803	Animal-associated
+3804	Animal-associated
+3805	Animal-associated
+3806	Animal-associated
+3807	Animal-associated
+3808	Animal-associated
+3809	Animal-associated
+3810	Animal-associated
+3811	Animal-associated
+3812	Animal-associated
+3813	Animal-associated
+3814	Animal-associated
+3815	Animal-associated
+3816	Animal-associated
+3817	Animal-associated
+3818	Animal-associated
+3819	Animal-associated
+3820	Hypersaline water
+3821	Animal-associated
+3822	Animal-associated
+3823	Animal-associated
+3824	Animal-associated
+3825	Animal-associated
+3826	Animal-associated
+3827	Animal-associated
+3828	Animal-associated
+3829	Animal-associated
+3830	Animal-associated
+3831	Animal-associated
+3832	Animal-associated
+3833	Animal-associated
+3834	Animal-associated
+3835	Animal-associated
+3836	Animal-associated
+3837	Animal-associated
+3838	Animal-associated
+3839	Animal-associated
+3840	Animal-associated
+3841	Animal-associated
+3842	Animal-associated
+3843	Animal-associated
+3844	Animal-associated
+3845	Animal-associated
+3846	Animal-associated
+3847	Animal-associated
+3848	Animal-associated
+3849	Animal-associated
+3850	Animal-associated
+3851	Animal-associated
+3852	Animal-associated
+3853	Animal-associated
+3854	Animal-associated
+3855	Animal-associated
+3856	Animal-associated
+3857	Animal-associated
+3858	Animal-associated
+3859	Animal-associated
+3860	Animal-associated
+3861	Animal-associated
+3862	Animal-associated
+3863	Animal-associated
+3864	Animal-associated
+3865	Animal-associated
+3866	Animal-associated
+3867	Animal-associated
+3868	Animal-associated
+3869	Animal-associated
+3870	Animal-associated
+3871	Animal-associated
+3872	Animal-associated
+3873	Animal-associated
+3874	Animal-associated
+3875	Animal-associated
+3876	Animal-associated
+3877	Animal-associated
+3878	Animal-associated
+3879	Animal-associated
+3880	Animal-associated
+3881	Animal-associated
+3882	Animal-associated
+3883	Animal-associated
+3884	Animal-associated
+3885	Animal-associated
+3886	Animal-associated
+3887	Animal-associated
+3888	Animal-associated
+3889	Animal-associated
+3890	Animal-associated
+3891	Animal-associated
+3892	Animal-associated
+3893	Animal-associated
+3894	Animal-associated
+3895	Animal-associated
+3896	Animal-associated
+3897	Animal-associated
+3898	Animal-associated
+3899	Animal-associated
+3900	Animal-associated
+3901	Animal-associated
+3902	Animal-associated
+3903	Animal-associated
+3904	Animal-associated
+3905	Animal-associated
+3906	Animal-associated
+3907	Animal-associated
+3908	NA
+3909	NA
+3910	NA
+3911	NA
+3912	NA
+3913	NA
+3914	NA
+3915	NA
+3916	NA
+3917	NA
+3918	NA
+3919	NA
+3920	NA
+3921	NA
+3922	NA
+3923	NA
+3924	NA
+3925	NA
+3926	NA
+3927	NA
+3928	NA
+3929	NA
+3930	NA
+3931	NA
+3932	NA
+3933	NA
+3934	NA
+3935	NA
+3936	NA
+3937	NA
+3938	NA
+3939	NA
+3940	NA
+3941	NA
+3942	NA
+3943	NA
+3944	NA
+3945	NA
+3946	NA
+3947	NA
+3948	NA
+3949	NA
+3950	NA
+3951	NA
+3952	NA
+3953	NA
+3954	NA
+3955	NA
+3956	NA
+3957	NA
+3958	NA
+3959	NA
+3960	NA
+3961	NA
+3962	NA
+3963	NA
+3964	NA
+3965	NA
+3966	NA
+3967	NA
+3968	NA
+3969	NA
+3970	NA
+3971	NA
+3972	NA
+3973	NA
+3974	NA
+3975	NA
+3976	NA
+3977	NA
+3978	NA
+3979	NA
+3980	NA
+3981	NA
+3982	NA
+3983	NA
+3984	NA
+3985	NA
+3986	NA
+3987	NA
+3988	NA
+3989	NA
+3990	NA
+3991	NA
+3992	NA
+3993	NA
+3994	NA
+3995	NA
+3996	NA
+3997	NA
+3998	NA
+3999	NA
+4000	NA
+4001	NA
+4002	NA
+4003	NA
+4004	NA
+4005	NA
+4006	NA
+4007	NA
+4008	NA
+4009	NA
+4010	NA
+4011	NA
+4012	NA
+4013	NA
+4014	NA
+4015	NA
+4016	NA
+4017	NA
+4018	NA
+4019	NA
+4020	NA
+4021	NA
+4022	NA
+4023	NA
+4024	NA
+4025	NA
+4026	NA
+4027	NA
+4028	NA
+4029	NA
+4060	Animal-associated
+4061	Animal-associated
+4062	Animal-associated
+4063	Animal-associated
+4064	Animal-associated
+4065	Animal-associated
+4066	Animal-associated
+4067	Animal-associated
+4068	Animal-associated
+4069	Animal-associated
+4070	NA
+4071	NA
+4072	NA
+4073	NA
+4074	NA
+4075	NA
+4076	NA
+4077	NA
+4078	NA
+4079	NA
+4080	NA
+4081	NA
+4082	NA
+4083	NA
+4084	NA
+4085	NA
+4086	NA
+4087	NA
+4088	NA
+4089	NA
+4090	NA
+4091	NA
+4092	NA
+4093	NA
+4094	NA
+4095	NA
+4096	Freshwater lake
+4097	Freshwater lake
+4098	Freshwater lake
+4099	Animal-associated
+4100	Animal-associated
+4101	Animal-associated
+4102	Animal-associated
+4103	Animal-associated
+4104	Animal-associated
+4105	Animal-associated
+4106	Animal-associated
+4107	Animal-associated
+4108	Animal-associated
+4109	Animal-associated
+4110	Animal-associated
+4111	Animal-associated
+4112	Animal-associated
+4113	Animal-associated
+4114	Animal-associated
+4115	Animal-associated
+4116	Animal-associated
+4117	Animal-associated
+4118	Animal-associated
+4119	Animal-associated
+4120	Animal-associated
+4121	Animal-associated
+4122	Animal-associated
+4123	Animal-associated
+4124	Animal-associated
+4125	Animal-associated
+4126	Animal-associated
+4127	Animal-associated
+4128	Animal-associated
+4129	Animal-associated
+4130	Animal-associated
+4131	Animal-associated
+4132	Animal-associated
+4133	Animal-associated
+4134	Animal-associated
+4135	Animal-associated
+4136	Animal-associated
+4137	Animal-associated
+4138	Animal-associated
+4139	Animal-associated
+4140	Animal-associated
+4141	Animal-associated
+4142	Animal-associated
+4143	Animal-associated
+4144	Animal-associated
+4145	Animal-associated
+4146	Animal-associated
+4147	Animal-associated
+4148	Animal-associated
+4149	Animal-associated
+4150	Animal-associated
+4151	Animal-associated
+4152	Animal-associated
+4153	Animal-associated
+4154	Animal-associated
+4155	Animal-associated
+4156	Animal-associated
+4157	Animal-associated
+4158	Animal-associated
+4159	Animal-associated
+4160	Animal-associated
+4161	Animal-associated
+4162	Animal-associated
+4163	Animal-associated
+4164	Animal-associated
+4165	Animal-associated
+4166	Animal-associated
+4167	Animal-associated
+4168	Animal-associated
+4169	Animal-associated
+4170	Animal-associated
+4171	Animal-associated
+4172	Animal-associated
+4173	Animal-associated
+4174	Animal-associated
+4175	Animal-associated
+4176	Animal-associated
+4177	Animal-associated
+4178	Animal-associated
+4179	Animal-associated
+4180	Animal-associated
+4181	Animal-associated
+4182	Animal-associated
+4183	Animal-associated
+4184	Animal-associated
+4185	Animal-associated
+4186	Animal-associated
+4187	Animal-associated
+4188	Animal-associated
+4189	Animal-associated
+4190	Animal-associated
+4191	Animal-associated
+4192	Animal-associated
+4193	NA
+4194	NA
+4195	NA
+4196	NA
+4197	NA
+4198	NA
+4199	NA
+4200	NA
+4201	NA
+4202	NA
+4203	NA
+4204	NA
+4205	NA
+4206	NA
+4207	NA
+4208	NA
+4209	NA
+4210	NA
+4211	NA
+4212	NA
+4213	NA
+4214	NA
+4215	NA
+4216	NA
+4217	NA
+4218	NA
+4219	NA
+4220	NA
+4221	NA
+4222	NA
+4223	NA
+4224	NA
+4225	NA
+4226	NA
+4227	NA
+4228	NA
+4229	NA
+4230	NA
+4231	NA
+4232	NA
+4233	NA
+4234	NA
+4235	NA
+4236	NA
+4237	NA
+4238	NA
+4239	NA
+4240	NA
+4241	NA
+4242	NA
+4243	NA
+4244	NA
+4245	NA
+4246	NA
+4247	NA
+4248	NA
+4249	NA
+4250	NA
+4251	Marine
+4252	Marine
+4253	Marine
+4254	Marine
+4255	Marine
+4256	Marine
+4257	Marine
+4258	Marine
+4259	Marine
+4260	Marine
+4261	Marine
+4262	Marine
+4263	Marine
+4264	Marine
+4265	Marine
+4266	Marine
+4267	Marine
+4268	Marine
+4269	Marine
+4270	Marine
+4271	Marine
+4272	Marine
+4273	Marine
+4274	Marine
+4275	Marine
+4276	Marine
+4277	Marine
+4278	Marine
+4279	Marine
+4280	Marine
+4281	Marine
+4282	Marine
+4283	Marine
+4284	Marine
+4285	Marine
+4286	Marine
+4287	Marine
+4288	Marine
+4289	Marine
+4290	Marine
+4291	Marine
+4292	Marine
+4293	Marine
+4294	Animal-associated
+4295	Animal-associated
+4296	Animal-associated
+4297	Animal-associated
+4298	Animal-associated
+4299	Animal-associated
+4300	Animal-associated
+4301	Animal-associated
+4302	Animal-associated
+4303	Animal-associated
+4304	Animal-associated
+4305	Animal-associated
+4306	Animal-associated
+4307	Animal-associated
+4308	Animal-associated
+4309	Animal-associated
+4310	Animal-associated
+4311	Animal-associated
+4312	Animal-associated
+4313	Animal-associated
+4314	Animal-associated
+4315	Animal-associated
+4316	Animal-associated
+4317	Animal-associated
+4318	Animal-associated
+4319	Animal-associated
+4320	Animal-associated
+4321	Animal-associated
+4322	Animal-associated
+4323	Animal-associated
+4324	Animal-associated
+4325	Animal-associated
+4326	Animal-associated
+4327	Animal-associated
+4328	Animal-associated
+4329	Animal-associated
+4330	Animal-associated
+4331	Animal-associated
+4332	Animal-associated
+4333	Animal-associated
+4334	Animal-associated
+4335	Animal-associated
+4336	Animal-associated
+4337	Animal-associated
+4338	Animal-associated
+4339	Animal-associated
+4340	Animal-associated
+4341	Animal-associated
+4342	Animal-associated
+4343	Animal-associated
+4344	Animal-associated
+4345	Animal-associated
+4346	Animal-associated
+4347	Animal-associated
+4348	Animal-associated
+4349	Animal-associated
+4350	Animal-associated
+4351	Animal-associated
+4352	Animal-associated
+4353	Animal-associated
+4354	Animal-associated
+4355	Animal-associated
+4356	Animal-associated
+4357	Animal-associated
+4358	Animal-associated
+4359	Animal-associated
+4360	Animal-associated
+4361	Animal-associated
+4362	Animal-associated
+4363	Animal-associated
+4364	Animal-associated
+4365	Animal-associated
+4366	Animal-associated
+4367	Animal-associated
+4368	Animal-associated
+4369	Animal-associated
+4370	Animal-associated
+4371	Animal-associated
+4372	Animal-associated
+4373	Animal-associated
+4374	Animal-associated
+4375	Animal-associated
+4376	Animal-associated
+4377	Animal-associated
+4378	Animal-associated
+4379	Animal-associated
+4380	Animal-associated
+4381	Animal-associated
+4382	Animal-associated
+4383	Animal-associated
+4384	Animal-associated
+4385	Animal-associated
+4386	Animal-associated
+4387	Animal-associated
+4388	Animal-associated
+4389	Animal-associated
+4390	Animal-associated
+4391	Animal-associated
+4392	Animal-associated
+4393	Animal-associated
+4394	Animal-associated
+4395	Animal-associated
+4396	Animal-associated
+4397	Animal-associated
+4398	Animal-associated
+4399	Animal-associated
+4400	Animal-associated
+4401	Animal-associated
+4402	Animal-associated
+4403	Animal-associated
+4404	Animal-associated
+4405	Animal-associated
+4406	Animal-associated
+4407	Animal-associated
+4408	Animal-associated
+4409	Animal-associated
+4410	Animal-associated
+4411	Animal-associated
+4412	Animal-associated
+4413	Animal-associated
+4414	Animal-associated
+4415	Animal-associated
+4416	Animal-associated
+4417	Animal-associated
+4418	Animal-associated
+4419	Animal-associated
+4420	Animal-associated
+4421	Animal-associated
+4422	Animal-associated
+4423	Animal-associated
+4424	Animal-associated
+4425	Animal-associated
+4426	Animal-associated
+4427	Animal-associated
+4428	Animal-associated
+4429	Animal-associated
+4430	Animal-associated
+4431	Animal-associated
+4432	Animal-associated
+4433	Animal-associated
+4434	Animal-associated
+4435	Animal-associated
+4436	Animal-associated
+4437	Animal-associated
+4438	Animal-associated
+4439	Animal-associated
+4440	Animal-associated
+4441	Animal-associated
+4442	Animal-associated
+4443	Animal-associated
+4444	Animal-associated
+4445	Animal-associated
+4446	Animal-associated
+4447	Animal-associated
+4448	Animal-associated
+4449	Animal-associated
+4450	Animal-associated
+4451	Animal-associated
+4452	Animal-associated
+4453	Animal-associated
+4454	Animal-associated
+4455	Animal-associated
+4456	Animal-associated
+4457	Animal-associated
+4458	Animal-associated
+4459	Animal-associated
+4460	Animal-associated
+4461	Animal-associated
+4462	Animal-associated
+4463	Animal-associated
+4464	Animal-associated
+4465	Animal-associated
+4466	Animal-associated
+4467	Animal-associated
+4468	Animal-associated
+4469	Animal-associated
+4470	Animal-associated
+4471	Animal-associated
+4472	Animal-associated
+4473	Animal-associated
+4474	Animal-associated
+4475	Animal-associated
+4476	Animal-associated
+4477	Animal-associated
+4478	Animal-associated
+4479	Animal-associated
+4480	Animal-associated
+4481	Animal-associated
+4482	Animal-associated
+4483	Animal-associated
+4484	Animal-associated
+4485	Animal-associated
+4486	Animal-associated
+4487	Animal-associated
+4488	Animal-associated
+4489	Animal-associated
+4490	Animal-associated
+4491	Animal-associated
+4492	Animal-associated
+4493	Animal-associated
+4494	Animal-associated
+4495	Animal-associated
+4496	Animal-associated
+4497	Animal-associated
+4498	Animal-associated
+4499	Animal-associated
+4500	Animal-associated
+4501	Animal-associated
+4502	Animal-associated
+4503	Animal-associated
+4504	Animal-associated
+4505	Animal-associated
+4506	Animal-associated
+4507	Animal-associated
+4508	Animal-associated
+4509	Animal-associated
+4510	Animal-associated
+4511	Animal-associated
+4512	Animal-associated
+4513	Animal-associated
+4514	Animal-associated
+4515	Animal-associated
+4516	Animal-associated
+4517	Animal-associated
+4518	Animal-associated
+4519	Animal-associated
+4520	Animal-associated
+4521	Animal-associated
+4522	Animal-associated
+4523	Animal-associated
+4524	Animal-associated
+4525	Animal-associated
+4526	Animal-associated
+4527	Animal-associated
+4528	Animal-associated
+4529	Animal-associated
+4530	Animal-associated
+4531	Animal-associated
+4532	Animal-associated
+4533	Animal-associated
+4534	Animal-associated
+4535	Animal-associated
+4536	Animal-associated
+4537	Animal-associated
+4538	Animal-associated
+4539	Animal-associated
+4540	Animal-associated
+4541	Animal-associated
+4542	Animal-associated
+4543	Animal-associated
+4544	Animal-associated
+4545	Animal-associated
+4546	Animal-associated
+4547	Animal-associated
+4548	Animal-associated
+4549	Animal-associated
+4550	Animal-associated
+4551	Animal-associated
+4552	Animal-associated
+4553	Animal-associated
+4554	Animal-associated
+4555	Animal-associated
+4556	Animal-associated
+4557	Animal-associated
+4558	Animal-associated
+4559	Animal-associated
+4560	Animal-associated
+4561	Animal-associated
+4562	Animal-associated
+4563	Animal-associated
+4564	Animal-associated
+4565	Animal-associated
+4566	Animal-associated
+4567	Animal-associated
+4568	Animal-associated
+4569	Animal-associated
+4570	Animal-associated
+4571	Animal-associated
+4572	Animal-associated
+4573	Animal-associated
+4574	Animal-associated
+4575	Animal-associated
+4576	Animal-associated
+4577	Animal-associated
+4578	Animal-associated
+4579	Animal-associated
+4580	Animal-associated
+4581	Animal-associated
+4582	Animal-associated
+4583	Animal-associated
+4584	Animal-associated
+4585	Animal-associated
+4586	Animal-associated
+4587	Animal-associated
+4588	Animal-associated
+4589	Animal-associated
+4590	Animal-associated
+4591	Animal-associated
+4592	Animal-associated
+4593	Animal-associated
+4594	Animal-associated
+4595	Animal-associated
+4596	Animal-associated
+4597	Animal-associated
+4598	Animal-associated
+4599	Animal-associated
+4600	Animal-associated
+4601	Animal-associated
+4602	Animal-associated
+4603	Animal-associated
+4604	Animal-associated
+4605	Animal-associated
+4606	Animal-associated
+4607	Animal-associated
+4608	Animal-associated
+4609	Animal-associated
+4610	Animal-associated
+4611	Animal-associated
+4612	Animal-associated
+4613	Animal-associated
+4614	Animal-associated
+4615	Animal-associated
+4616	Animal-associated
+4617	Animal-associated
+4618	Animal-associated
+4619	Animal-associated
+4620	Animal-associated
+4621	Animal-associated
+4622	Animal-associated
+4623	Animal-associated
+4624	Animal-associated
+4625	Animal-associated
+4626	Animal-associated
+4627	Animal-associated
+4628	Animal-associated
+4629	Animal-associated
+4630	Animal-associated
+4631	Animal-associated
+4632	Animal-associated
+4633	Animal-associated
+4634	Animal-associated
+4635	Animal-associated
+4636	Animal-associated
+4637	Animal-associated
+4638	Animal-associated
+4639	Animal-associated
+4640	Animal-associated
+4641	Animal-associated
+4642	Animal-associated
+4643	Animal-associated
+4644	Animal-associated
+4645	Animal-associated
+4646	Animal-associated
+4647	Animal-associated
+4648	Animal-associated
+4649	Animal-associated
+4650	Animal-associated
+4651	Animal-associated
+4652	Animal-associated
+4653	Animal-associated
+4654	Animal-associated
+4655	Animal-associated
+4656	Animal-associated
+4657	Animal-associated
+4658	Animal-associated
+4659	Animal-associated
+4660	Animal-associated
+4661	Animal-associated
+4662	Animal-associated
+4663	Animal-associated
+4664	Animal-associated
+4665	Animal-associated
+4666	Animal-associated
+4667	Animal-associated
+4668	Animal-associated
+4669	Animal-associated
+4670	Animal-associated
+4671	Animal-associated
+4672	Animal-associated
+4673	Animal-associated
+4674	Animal-associated
+4675	Animal-associated
+4676	Animal-associated
+4677	Animal-associated
+4678	Animal-associated
+4679	Animal-associated
+4680	Animal-associated
+4681	Animal-associated
+4682	Animal-associated
+4683	Animal-associated
+4684	Animal-associated
+4685	Animal-associated
+4686	Animal-associated
+4687	Animal-associated
+4688	Animal-associated
+4689	Animal-associated
+4690	Animal-associated
+4691	Animal-associated
+4692	Animal-associated
+4693	Animal-associated
+4694	Animal-associated
+4695	Animal-associated
+4696	Animal-associated
+4697	Animal-associated
+4698	Animal-associated
+4699	Animal-associated
+4700	Animal-associated
+4701	Animal-associated
+4702	Animal-associated
+4703	Animal-associated
+4704	Animal-associated
+4705	Animal-associated
+4706	Animal-associated
+4707	Animal-associated
+4708	Animal-associated
+4709	Animal-associated
+4710	Animal-associated
+4711	Animal-associated
+4712	Animal-associated
+4713	Animal-associated
+4714	Animal-associated
+4715	Animal-associated
+4716	Animal-associated
+4717	Animal-associated
+4718	Animal-associated
+4719	Animal-associated
+4720	Animal-associated
+4721	Animal-associated
+4722	Animal-associated
+4723	Animal-associated
+4724	Animal-associated
+4725	Animal-associated
+4726	Animal-associated
+4727	Animal-associated
+4728	Animal-associated
+4729	Animal-associated
+4730	Animal-associated
+4731	Animal-associated
+4732	Animal-associated
+4733	Animal-associated
+4734	Animal-associated
+4735	Animal-associated
+4736	Animal-associated
+4737	Animal-associated
+4738	Animal-associated
+4739	Animal-associated
+4740	Animal-associated
+4741	Animal-associated
+4742	Animal-associated
+4743	Animal-associated
+4744	Animal-associated
+4745	Animal-associated
+4746	Animal-associated
+4747	Animal-associated
+4748	Animal-associated
+4749	Animal-associated
+4750	Animal-associated
+4751	Animal-associated
+4752	Animal-associated
+4753	Animal-associated
+4754	Animal-associated
+4755	Animal-associated
+4756	Animal-associated
+4757	Animal-associated
+4758	Animal-associated
+4759	Animal-associated
+4760	Animal-associated
+4761	Animal-associated
+4762	Animal-associated
+4763	Animal-associated
+4764	Animal-associated
+4765	Animal-associated
+4766	Animal-associated
+4767	Animal-associated
+4768	Animal-associated
+4769	Animal-associated
+4770	Animal-associated
+4771	Animal-associated
+4772	Animal-associated
+4773	Animal-associated
+4774	Animal-associated
+4775	Animal-associated
+4776	Animal-associated
+4777	Animal-associated
+4778	Animal-associated
+4779	Animal-associated
+4780	Animal-associated
+4781	Animal-associated
+4782	Animal-associated
+4783	Animal-associated
+4784	Animal-associated
+4785	Animal-associated
+4786	Animal-associated
+4787	Animal-associated
+4788	Animal-associated
+4789	Animal-associated
+4790	Animal-associated
+4791	Animal-associated
+4792	Animal-associated
+4793	Animal-associated
+4794	Animal-associated
+4795	Animal-associated
+4796	Animal-associated
+4797	Animal-associated
+4798	Animal-associated
+4799	Animal-associated
+4800	Animal-associated
+4801	Animal-associated
+4802	Animal-associated
+4803	Animal-associated
+4804	Animal-associated
+4805	Animal-associated
+4806	Animal-associated
+4807	Animal-associated
+4808	Animal-associated
+4809	Animal-associated
+4810	Animal-associated
+4811	Animal-associated
+4812	Animal-associated
+4813	Animal-associated
+4814	Animal-associated
+4815	Animal-associated
+4816	Animal-associated
+4817	Animal-associated
+4818	Animal-associated
+4819	Animal-associated
+4820	Animal-associated
+4821	Animal-associated
+4822	Animal-associated
+4823	Animal-associated
+4824	Animal-associated
+4825	Animal-associated
+4826	Animal-associated
+4827	Animal-associated
+4828	Animal-associated
+4829	Animal-associated
+4830	Animal-associated
+4831	Animal-associated
+4832	Animal-associated
+4833	Animal-associated
+4834	Animal-associated
+4835	Animal-associated
+4836	Animal-associated
+4837	Animal-associated
+4838	Animal-associated
+4839	Animal-associated
+4840	Animal-associated
+4841	Animal-associated
+4842	Animal-associated
+4843	Animal-associated
+4844	Animal-associated
+4845	Animal-associated
+4846	Animal-associated
+4847	Animal-associated
+4848	Animal-associated
+4849	Animal-associated
+4850	Animal-associated
+4851	Animal-associated
+4852	Animal-associated
+4853	Animal-associated
+4854	Animal-associated
+4855	Animal-associated
+4856	Animal-associated
+4857	Animal-associated
+4858	Animal-associated
+4859	Animal-associated
+4860	Animal-associated
+4861	Animal-associated
+4862	Animal-associated
+4863	Animal-associated
+4864	Animal-associated
+4865	Animal-associated
+4866	Animal-associated
+4867	Animal-associated
+4868	Animal-associated
+4869	Animal-associated
+4870	Animal-associated
+4871	Animal-associated
+4872	Animal-associated
+4873	Animal-associated
+4874	Animal-associated
+4875	Animal-associated
+4876	Animal-associated
+4877	Animal-associated
+4878	Animal-associated
+4879	Animal-associated
+4880	Animal-associated
+4881	Animal-associated
+4882	Animal-associated
+4883	Animal-associated
+4884	Animal-associated
+4885	Animal-associated
+4886	Animal-associated
+4887	Animal-associated
+4888	Animal-associated
+4889	Animal-associated
+4890	Animal-associated
+4891	Animal-associated
+4892	Animal-associated
+4893	Animal-associated
+4894	Animal-associated
+4895	Animal-associated
+4896	Animal-associated
+4897	Animal-associated
+4898	Animal-associated
+4899	Animal-associated
+4900	Animal-associated
+4901	Animal-associated
+4902	Animal-associated
+4903	Animal-associated
+4904	Animal-associated
+4905	Animal-associated
+4906	Animal-associated
+4907	Animal-associated
+4908	Animal-associated
+4909	Animal-associated
+4910	Animal-associated
+4911	Animal-associated
+4912	Animal-associated
+4913	Animal-associated
+4914	Animal-associated
+4915	Animal-associated
+4916	Animal-associated
+4917	Animal-associated
+4918	Animal-associated
+4919	Animal-associated
+4920	Animal-associated
+4921	Animal-associated
+4922	Animal-associated
+4923	Animal-associated
+4924	Animal-associated
+4925	Animal-associated
+4926	Animal-associated
+4927	Animal-associated
+4928	Animal-associated
+4929	Animal-associated
+4930	Animal-associated
+4931	Animal-associated
+4932	Animal-associated
+4933	Animal-associated
+4934	Animal-associated
+4935	Animal-associated
+4936	Animal-associated
+4937	Animal-associated
+4938	Animal-associated
+4939	Animal-associated
+4940	Animal-associated
+4941	Animal-associated
+4942	Animal-associated
+4943	Animal-associated
+4944	Animal-associated
+4945	Animal-associated
+4946	Animal-associated
+4947	Animal-associated
+4948	Animal-associated
+4949	Animal-associated
+4950	Animal-associated
+4951	Animal-associated
+4952	Animal-associated
+4953	Animal-associated
+4954	Animal-associated
+4955	Animal-associated
+4956	Animal-associated
+4957	Animal-associated
+4958	Animal-associated
+4959	Animal-associated
+4960	Animal-associated
+4961	Animal-associated
+4962	Animal-associated
+4963	Animal-associated
+4964	Animal-associated
+4965	Animal-associated
+4966	Animal-associated
+4967	Animal-associated
+4968	Animal-associated
+4969	Marine
+4970	Animal-associated
+4971	Marine
+4972	Marine
+4973	Marine
+4974	Marine
+4977	Marine
+4978	Marine
+4979	Marine
+4980	Marine
+4983	Marine
+4984	Marine
+4985	Marine
+4986	Marine
+4989	Marine
+4990	Marine
+4991	Marine
+4992	Marine
+4995	Marine
+4996	Marine
+4997	Marine
+4998	Marine
+5001	Marine
+5002	Marine
+5003	Marine
+5004	Marine
+5007	Marine
+5008	Marine
+5009	Marine
+5010	Marine
+5011	Marine
+5012	Marine
+5013	Marine
+5014	Marine
+5015	Marine
+5016	Marine
+5044	Freshwater river
+5045	Freshwater river
+5046	Freshwater river
+5047	Freshwater river
+5048	Freshwater river
+5049	Freshwater river
+5050	Freshwater river
+5051	Freshwater river
+5052	Freshwater river
+5053	Freshwater river
+5054	Freshwater river
+5055	Freshwater river
+5056	Freshwater river
+5057	Freshwater river
+5058	Freshwater river
+5059	Freshwater river
+5060	Freshwater river
+5061	Freshwater river
+5062	Freshwater river
+5063	Freshwater river
+5064	Freshwater river
+5065	Freshwater river
+5066	Freshwater river
+5166	Marine
+5167	Marine
+5168	Marine
+5169	Marine
+5170	Marine
+5171	Marine
+5172	Marine
+5173	Marine
+5174	Marine
+5175	Marine
+5176	Marine
+5177	Marine
+5178	Marine
+5179	Marine
+5180	Marine
+5181	Marine
+5182	Marine
+5183	Marine
+5184	Marine
+5185	Marine
+5186	Marine
+5187	Marine
+5188	Marine
+5189	Marine
+5190	Marine
+5191	Marine
+5192	Marine
+5193	Marine
+5194	Marine
+5195	Marine
+5196	Marine
+5197	Marine
+5198	Marine
+5199	Marine
+5200	Marine
+5201	Marine
+5202	Marine
+5203	Marine
+5204	Marine
+5205	Marine
+5206	Marine
+5207	Marine
+5208	Marine
+5209	Marine
+5210	Marine
+5211	Marine
+5212	Marine
+5213	Marine
+5214	Marine
+5215	Marine
+5216	Marine
+5217	Marine
+5218	Marine
+5219	Marine
+5220	Marine
+5221	Marine
+5222	Marine
+5223	Marine
+5224	Marine
+5225	Marine
+5226	Marine
+5227	Marine
+5228	Marine
+5229	Marine
+5230	Marine
+5231	Marine
+5232	Marine
+5233	Marine
+5234	Marine
+5235	Marine
+5236	Marine
+5237	Marine
+5238	Marine
+5239	Marine
+5240	Marine
+5241	Marine
+5242	Marine
+5243	Marine
+5244	Marine
+5245	Marine
+5246	Marine
+5247	Marine
+5248	Marine
+5249	Marine
+5250	Marine
+5251	Marine
+5252	Marine
+5253	Marine
+5254	Marine
+5255	Marine
+5256	Marine
+5257	Marine
+5258	Marine
+5259	Marine
+5260	Marine
+5261	Marine
+5262	Marine
+5263	Marine
+5264	Marine
+5265	Marine
+5266	Marine
+5267	Marine
+5268	Marine
+5269	Marine
+5270	Marine
+5271	Marine
+5272	Marine
+5273	Marine
+5274	Marine
+5275	Marine
+5276	Marine
+5277	Marine
+5278	Marine
+5307	Marine
+5308	Marine
+5309	Marine
+5310	Marine
+5311	Marine
+5312	Marine
+5313	Marine
+5314	Marine
+5315	Marine
+5316	Marine
+5317	Marine
+5318	Marine
+5319	Marine
+5320	Marine
+5321	Marine
+5322	Marine
+5323	Marine
+5324	Marine
+5325	Marine
+5327	Marine
+5328	Marine
+5329	Marine
+5330	Marine
+5331	Marine
+5332	Marine
+5333	Marine
+5334	Marine
+5335	Marine
+5336	Marine
+5337	Marine
+5338	Marine
+5339	Marine
+5340	Marine
+5341	Marine
+5342	Marine
+5343	Marine
+5344	Marine
+5345	Marine
+5346	Marine
+5347	Marine
+5348	Marine
+5349	Marine
+5350	Marine
+5351	Marine
+5352	Marine
