@@ -34,3 +34,15 @@ pheatmap(hot.df,
          cutree_rows = 2,
          cutree_cols = 2,
          filename = file.path(wd, "hot-heatmap.png"))
+
+# ICU
+icu.full = read.table("icu-dist.txt", header = T, check.names = F)
+icu.samples = sample(nrow(icu.full), 50)
+icu.df = icu.full[icu.samples, icu.samples]
+icu.fit = hclust(as.dist(icu.df), method = "ward.D2")
+dg = ggdendro::ggdendrogram(icu.fit, rotate=F)
+ggsave(file = file.path(wd, "icu.png"),
+       limitsize = FALSE, width = 10, height = 5, plot = dg)
+pheatmap(icu.df, 
+         col = colors, 
+         filename = file.path(wd, "icu-heatmap.png"))
