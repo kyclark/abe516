@@ -1,0 +1,155 @@
+Gene stable ID,Transcript stable ID,Gene name,GO term accession,GO term name,Gene description,GO domain
+ENSRNA049485566,ENSRNA049485566-T1,SSU_rRNA_eukarya,,,Eukaryotic small subunit ribosomal RNA,
+ENSRNA049485567,ENSRNA049485567-T1,SSU_rRNA_eukarya,,,Eukaryotic small subunit ribosomal RNA,
+ENSRNA049485569,ENSRNA049485569-T1,SSU_rRNA_eukarya,,,Eukaryotic small subunit ribosomal RNA,
+ENSRNA049485570,ENSRNA049485570-T1,SSU_rRNA_eukarya,,,Eukaryotic small subunit ribosomal RNA,
+ENSRNA049485572,ENSRNA049485572-T1,LSU_rRNA_eukarya,,,Eukaryotic large subunit ribosomal RNA,
+ENSRNA049485573,ENSRNA049485573-T1,SSU_rRNA_eukarya,,,Eukaryotic small subunit ribosomal RNA,
+SORBI_3001G261250,OQU91868,,,,hypothetical protein,
+SORBI_3001G261250,OQU91867,,,,hypothetical protein,
+SORBI_3001G301500,EER91949,,GO:0005576,extracellular region,hypothetical protein,cellular_component
+SORBI_3001G301500,EER91949,,GO:0019953,sexual reproduction,hypothetical protein,biological_process
+SORBI_3001G301600,EER94506,,GO:0005576,extracellular region,hypothetical protein,cellular_component
+SORBI_3001G301600,EER94506,,GO:0019953,sexual reproduction,hypothetical protein,biological_process
+SORBI_3001G371500,OQU92594,,,,hypothetical protein,
+SORBI_3001G418600,EER92466,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3001G418600,EER92466,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3001G420100,EER95095,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3001G420100,EER95095,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3001G426000,EER95124,,,,hypothetical protein,
+SORBI_3002G150301,OQU89130,,,,hypothetical protein,
+SORBI_3002G150766,OQU89141,,,,hypothetical protein,
+SORBI_3002G150766,OQU89138,,,,hypothetical protein,
+SORBI_3002G150766,OQU89140,,,,hypothetical protein,
+SORBI_3002G150766,OQU89134,,,,hypothetical protein,
+SORBI_3002G150766,OQU89133,,,,hypothetical protein,
+SORBI_3002G150766,OQU89136,,,,hypothetical protein,
+SORBI_3002G150766,OQU89137,,,,hypothetical protein,
+SORBI_3002G150766,OQU89139,,,,hypothetical protein,
+SORBI_3002G150766,OQU89135,,,,hypothetical protein,
+SORBI_3002G157600,KXG35319,,,,hypothetical protein,
+SORBI_3002G243200,EER99075,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3002G243200,EER99075,,GO:0006950,response to stress,hypothetical protein,biological_process
+SORBI_3002G243200,EER99075,,GO:0051082,unfolded protein binding,hypothetical protein,molecular_function
+SORBI_3002G243200,EER99075,,GO:0006457,protein folding,hypothetical protein,biological_process
+SORBI_3002G243500,EER96954,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3002G243500,EER96954,,GO:0006950,response to stress,hypothetical protein,biological_process
+SORBI_3002G243500,EER96954,,GO:0051082,unfolded protein binding,hypothetical protein,molecular_function
+SORBI_3002G243500,EER96954,,GO:0006457,protein folding,hypothetical protein,biological_process
+SORBI_3003G006833,EES00008,,GO:0003723,RNA binding,hypothetical protein,molecular_function
+SORBI_3003G006833,EES00008,,GO:0003676,nucleic acid binding,hypothetical protein,molecular_function
+SORBI_3003G007300,OQU86060,,GO:0003676,nucleic acid binding,hypothetical protein,molecular_function
+SORBI_3003G007300,OQU86060,,GO:0003723,RNA binding,hypothetical protein,molecular_function
+SORBI_3003G057366,OQU86251,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3003G057366,OQU86251,,GO:0003677,DNA binding,hypothetical protein,molecular_function
+SORBI_3003G057366,OQU86251,,GO:0046982,protein heterodimerization activity,hypothetical protein,molecular_function
+SORBI_3003G057366,OQU86251,,GO:0000786,nucleosome,hypothetical protein,cellular_component
+SORBI_3003G057366,OQU86251,,GO:0006334,nucleosome assembly,hypothetical protein,biological_process
+SORBI_3003G057366,OQU86251,,GO:0005694,chromosome,hypothetical protein,cellular_component
+SORBI_3003G100200,KXG32096,,GO:0016021,integral component of membrane,hypothetical protein,cellular_component
+SORBI_3003G100200,KXG32096,,GO:0016020,membrane,hypothetical protein,cellular_component
+SORBI_3003G100200,KXG32097,,GO:0016021,integral component of membrane,hypothetical protein,cellular_component
+SORBI_3003G100200,KXG32097,,GO:0016020,membrane,hypothetical protein,cellular_component
+SORBI_3003G100200,OQU86504,,GO:0016021,integral component of membrane,hypothetical protein,cellular_component
+SORBI_3003G100200,OQU86504,,GO:0016020,membrane,hypothetical protein,cellular_component
+SORBI_3003G178500,EES00849,,GO:0016021,integral component of membrane,hypothetical protein,cellular_component
+SORBI_3003G178500,EES00849,,GO:0006633,fatty acid biosynthetic process,hypothetical protein,biological_process
+SORBI_3003G178500,EES00849,,GO:0016747,"transferase activity, transferring acyl groups other than amino-acyl groups",hypothetical protein,molecular_function
+SORBI_3003G178500,EES00849,,GO:0008152,metabolic process,hypothetical protein,biological_process
+SORBI_3003G178500,EES00849,,GO:0016020,membrane,hypothetical protein,cellular_component
+SORBI_3003G178500,EES00849,,GO:0016740,transferase activity,hypothetical protein,molecular_function
+SORBI_3003G178500,EES00849,,GO:0016746,"transferase activity, transferring acyl groups",hypothetical protein,molecular_function
+SORBI_3003G178500,EES00849,,GO:0003824,catalytic activity,hypothetical protein,molecular_function
+SORBI_3003G178700,EES03073,,GO:0016021,integral component of membrane,hypothetical protein,cellular_component
+SORBI_3003G178700,EES03073,,GO:0006633,fatty acid biosynthetic process,hypothetical protein,biological_process
+SORBI_3003G178700,EES03073,,GO:0016747,"transferase activity, transferring acyl groups other than amino-acyl groups",hypothetical protein,molecular_function
+SORBI_3003G178700,EES03073,,GO:0008152,metabolic process,hypothetical protein,biological_process
+SORBI_3003G178700,EES03073,,GO:0016020,membrane,hypothetical protein,cellular_component
+SORBI_3003G178700,EES03073,,GO:0016740,transferase activity,hypothetical protein,molecular_function
+SORBI_3003G178700,EES03073,,GO:0016746,"transferase activity, transferring acyl groups",hypothetical protein,molecular_function
+SORBI_3003G178700,EES03073,,GO:0003824,catalytic activity,hypothetical protein,molecular_function
+SORBI_3003G273600,EES01354,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3003G273600,EES01354,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3003G273600,EES01354,,GO:0005737,cytoplasm,hypothetical protein,cellular_component
+SORBI_3003G273600,EES01354,,GO:0018105,peptidyl-serine phosphorylation,hypothetical protein,biological_process
+SORBI_3003G273600,EES01354,,GO:0004674,protein serine/threonine kinase activity,hypothetical protein,molecular_function
+SORBI_3003G273600,EES01354,,GO:0008360,regulation of cell shape,hypothetical protein,biological_process
+SORBI_3003G273600,EES01354,,GO:0006897,endocytosis,hypothetical protein,biological_process
+SORBI_3003G273600,EES01354,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3003G273600,EES01354,,GO:0004672,protein kinase activity,hypothetical protein,molecular_function
+SORBI_3003G273600,EES01354,,GO:0006468,protein phosphorylation,hypothetical protein,biological_process
+SORBI_3003G273600,EES01354,,GO:0004674,protein serine/threonine kinase activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0008270,zinc ion binding,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0005829,cytosol,hypothetical protein,cellular_component
+SORBI_3003G275300,EES03512,,GO:0009972,cytidine deamination,hypothetical protein,biological_process
+SORBI_3003G275300,EES03512,,GO:0004126,cytidine deaminase activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0055114,oxidation-reduction process,hypothetical protein,biological_process
+SORBI_3003G275300,EES03512,,GO:0003824,catalytic activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0008270,zinc ion binding,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0004126,cytidine deaminase activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0010277,chlorophyllide a oxygenase [overall] activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0016787,hydrolase activity,hypothetical protein,molecular_function
+SORBI_3003G275300,EES03512,,GO:0009972,cytidine deamination,hypothetical protein,biological_process
+SORBI_3004G038800,KXG29458,,GO:0005515,protein binding,hypothetical protein,molecular_function
+SORBI_3004G039700,KXG29464,,GO:0005515,protein binding,hypothetical protein,molecular_function
+SORBI_3004G113850,OQU84726,,,,hypothetical protein,
+SORBI_3004G113850,OQU84725,,,,hypothetical protein,
+SORBI_3004G290800,EES05768,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3004G290800,EES05768,,GO:0006351,"transcription, DNA-templated",hypothetical protein,biological_process
+SORBI_3004G290800,EES05768,,GO:0006355,"regulation of transcription, DNA-templated",hypothetical protein,biological_process
+SORBI_3004G290800,EES05768,,GO:0043565,sequence-specific DNA binding,hypothetical protein,molecular_function
+SORBI_3004G290800,EES05768,,GO:0030154,cell differentiation,hypothetical protein,biological_process
+SORBI_3004G290800,EES05768,,GO:0003700,"transcription factor activity, sequence-specific DNA binding",hypothetical protein,molecular_function
+SORBI_3004G290800,EES05768,,GO:0006355,"regulation of transcription, DNA-templated",hypothetical protein,biological_process
+SORBI_3004G291000,OQU85680,,GO:0006351,"transcription, DNA-templated",hypothetical protein,biological_process
+SORBI_3004G291000,OQU85680,,GO:0006355,"regulation of transcription, DNA-templated",hypothetical protein,biological_process
+SORBI_3005G125000,OQU83492,,,,hypothetical protein,
+SORBI_3007G068700,OQU80030,,GO:0004097,catechol oxidase activity,hypothetical protein,molecular_function
+SORBI_3007G068700,OQU80030,,GO:0016491,oxidoreductase activity,hypothetical protein,molecular_function
+SORBI_3007G068700,OQU80030,,GO:0046872,metal ion binding,hypothetical protein,molecular_function
+SORBI_3007G068700,OQU80030,,GO:0008152,metabolic process,hypothetical protein,biological_process
+SORBI_3007G068700,OQU80030,,GO:0055114,oxidation-reduction process,hypothetical protein,biological_process
+SORBI_3007G098950,OQU80242,,,,hypothetical protein,
+SORBI_3008G065800,EES16797,,,,hypothetical protein,
+SORBI_3008G075350,OQU78937,,,,hypothetical protein,
+SORBI_3008G155000,EES17326,,GO:0005515,protein binding,hypothetical protein,molecular_function
+SORBI_3009G005900,KXG21030,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3009G005900,KXG21030,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3009G005900,EES18852,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3009G005900,EES18852,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3009G005900,KXG21032,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3009G005900,KXG21032,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3009G006100,KXG21029,,GO:0005524,ATP binding,hypothetical protein,molecular_function
+SORBI_3009G006100,KXG21029,,GO:0000166,nucleotide binding,hypothetical protein,molecular_function
+SORBI_3009G007600,KXG21050,,,,hypothetical protein,
+SORBI_3009G007600,OQU77210,,,,hypothetical protein,
+SORBI_3009G007700,EES18862,,,,hypothetical protein,
+SORBI_3009G096850,OQU77750,,,,hypothetical protein,
+SORBI_3009G240400,KXG22580,,GO:0006886,intracellular protein transport,hypothetical protein,biological_process
+SORBI_3009G240400,KXG22580,,GO:0007165,signal transduction,hypothetical protein,biological_process
+SORBI_3009G240400,KXG22580,,GO:0005622,intracellular,hypothetical protein,cellular_component
+SORBI_3009G240400,KXG22580,,GO:0005525,GTP binding,hypothetical protein,molecular_function
+SORBI_3009G240400,KXG22580,,GO:0003924,GTPase activity,hypothetical protein,molecular_function
+SORBI_3009G240400,KXG22580,,GO:0006913,nucleocytoplasmic transport,hypothetical protein,biological_process
+SORBI_3010G047100,EER89236,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3010G047100,EER89236,,GO:0046982,protein heterodimerization activity,hypothetical protein,molecular_function
+SORBI_3010G047100,EER89236,,GO:0000786,nucleosome,hypothetical protein,cellular_component
+SORBI_3010G047100,EER89236,,GO:0006334,nucleosome assembly,hypothetical protein,biological_process
+SORBI_3010G047100,EER89236,,GO:0031492,nucleosomal DNA binding,hypothetical protein,molecular_function
+SORBI_3010G047100,EER89236,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3010G047100,EER89236,,GO:0003677,DNA binding,hypothetical protein,molecular_function
+SORBI_3010G047100,EER89236,,GO:0000786,nucleosome,hypothetical protein,cellular_component
+SORBI_3010G047100,EER89236,,GO:0005694,chromosome,hypothetical protein,cellular_component
+SORBI_3010G047200,EER87889,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3010G047200,EER87889,,GO:0046982,protein heterodimerization activity,hypothetical protein,molecular_function
+SORBI_3010G047200,EER87889,,GO:0000786,nucleosome,hypothetical protein,cellular_component
+SORBI_3010G047200,EER87889,,GO:0006334,nucleosome assembly,hypothetical protein,biological_process
+SORBI_3010G047200,EER87889,,GO:0031492,nucleosomal DNA binding,hypothetical protein,molecular_function
+SORBI_3010G047200,EER87889,,GO:0005634,nucleus,hypothetical protein,cellular_component
+SORBI_3010G047200,EER87889,,GO:0003677,DNA binding,hypothetical protein,molecular_function
+SORBI_3010G047200,EER87889,,GO:0000786,nucleosome,hypothetical protein,cellular_component
+SORBI_3010G047200,EER87889,,GO:0005694,chromosome,hypothetical protein,cellular_component
+SORBI_3010G140500,KXG19988,,GO:0004842,ubiquitin-protein transferase activity,hypothetical protein,molecular_function
+SORBI_3010G140500,KXG19988,,GO:0016740,transferase activity,hypothetical protein,molecular_function
+SORBI_3010G140500,KXG19988,,GO:0016567,protein ubiquitination,hypothetical protein,biological_process
+SORBI_3010G144700,OQU76436,,,,hypothetical protein,
